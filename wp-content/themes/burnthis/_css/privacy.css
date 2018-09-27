@@ -1,0 +1,55 @@
+body {
+  background-color: rgba(7, 10, 25);
+  font-size: 18px;
+  font-family: Raleway, sans-serif;
+}
+
+h1 {
+    font-size: 38px;
+    line-height: 44px;
+    margin-top: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+.privacy-title {
+  text-align: center;
+  font-family: rosewood-std-fill, sans-serif;
+}
+.body-privacy {
+  color: #e19461;
+}
+.privacy-question {
+  font-size: 1.25em;
+}
+.privacy-answer {
+  color: white;
+  font-size: 1em;
+  line-height: 1.25em;
+}
+.main-content {
+  margin-bottom: 0px;
+}
+.text-link {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  transition: all 200ms ease;
+  /* transition: color 200ms ease; */
+}
+.text-link:hover {
+  color: #e19461;
+  border-bottom: 1px solid #e19461;
+}
+@media (max-width: 767px) {
+  .main-content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
