@@ -392,7 +392,7 @@ body {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
-    font-size: 9px;
+    font-size: 16px;
   }
   .role {
     padding-top: 5px;

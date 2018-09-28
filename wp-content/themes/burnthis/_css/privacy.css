@@ -1,7 +1,7 @@
 body {
-  background-color: rgba(7, 10, 25);
-  font-size: 18px;
-  font-family: Raleway, sans-serif;
+  font-size: 1em;
+  font-family: 'Helveticaneue condensed', sans-serif;
+  color: #f77c96;
 }
 
 h1 {
@@ -19,37 +19,56 @@ h1 {
 }
 
 .privacy-title {
-  text-align: center;
-  font-family: rosewood-std-fill, sans-serif;
+  text-align: left;
+    font-size: 2em;
+    font-family: 'Helveticaneue condensed', sans-serif;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+body.page-privacy .main-content {
+max-width: 700px;
 }
 .body-privacy {
-  color: #e19461;
+  color: #f77c96;
 }
 .privacy-question {
-  font-size: 1.25em;
+  font-size: 1.15em;
+color: #000;
+line-height: 1.25em;
 }
 .privacy-answer {
-  color: white;
-  font-size: 1em;
+  color: #facad2;
+  font-size: .85em;
   line-height: 1.25em;
 }
 .main-content {
   margin-bottom: 0px;
 }
-.text-link {
+.info-link {
   color: white;
   text-decoration: none;
   border-bottom: 1px solid white;
   transition: all 200ms ease;
   /* transition: color 200ms ease; */
 }
-.text-link:hover {
-  color: #e19461;
-  border-bottom: 1px solid #e19461;
+.info-link:hover {
+  color: #f77c96;
+  border-bottom: 1px solid #f77c96;
 }
 @media (max-width: 767px) {
   .main-content {
     padding-left: 10px;
     padding-right: 10px;
   }
+}
+.home-link.privacy {
+  color: #f77c96;
+  text-decoration: none;
+  font-size: 1em;
+  -webkit-transition:  200ms ease;
+  transition:  200ms ease;
+}
+.home-link.privacy:hover {
+  color: #fff;
+  border-bottom: solid 1px #fff;
 }

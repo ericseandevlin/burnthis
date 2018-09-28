@@ -55,11 +55,14 @@
 }
 
 @media (max-width: 467px) {
+.send-button {
+  font-size: 1em;
+}
   .text-field {
-    font-size: 2em;
+    font-size: 1.2em;
   }
   #mce-responses {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 }
 /* SECTION 1 */

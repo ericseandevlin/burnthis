@@ -20,7 +20,7 @@
           <?php get_template_part('partials/signup') ?>
 
 
-    <a href="#" class="footer-link">Privacy Policy</a></div>
+    <a href="/privacy" class="footer-link">Privacy Policy</a></div>
 
     </div>
 
