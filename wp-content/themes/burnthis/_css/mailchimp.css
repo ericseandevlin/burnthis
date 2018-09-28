@@ -6,6 +6,7 @@
 
 #mc_embed_signup_scroll {
   display: flex;
+  flex-flow: row;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -41,6 +42,24 @@
 .footer, .footer-column.one {
   height: fit-content;
 }
+
+@media (max-width: 991px) {
+
+  h2.email-label {
+    text-align: left;
+}
+  #mc_embed_signup_scroll {
+    display: flex;
+    flex-flow: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
+
 
 /* RESPONSES */
 

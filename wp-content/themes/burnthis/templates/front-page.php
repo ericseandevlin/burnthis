@@ -14,15 +14,14 @@
     <h1 class="title">BURN<br>THIS</h1>
     <h2 class="role">DIRECTED BY</h2>
     <h2 class="byline">MICHAEL<br>MAYER</h2>
-    <h2 class="date">ON BROADWAY <br>MARCH 2019</h2>
+    <h2 class="date">ON BROADWAY MARCH 2019</h2>
 
 
-    <div class="form-block w-form">
           <?php get_template_part('partials/signup') ?>
 
-    </div>
 
     <a href="#" class="footer-link">Privacy Policy</a></div>
 
+    </div>
 
 <?php get_footer(); ?>
