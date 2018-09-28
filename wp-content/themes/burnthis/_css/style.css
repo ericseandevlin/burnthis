@@ -1,8 +1,18 @@
 /* GENERAL */
-body {
-  background-color: papayawhip;
-}
 
+/* HelveticaNeue Condensed */
+    @font-face{
+        font-family:"Helveticaneue condensed";
+        src:url("../_css/_fonts/960546c0-8bc0-4951-94f4-a871c16e8211.eot?#iefix");
+        src:url("../_css/_fonts/960546c0-8bc0-4951-94f4-a871c16e8211.eot?#iefix") format("eot"),url("../_css/_fonts/02980b3d-1e37-4378-a5c6-4cf0d6ce0ba5.woff2") format("woff2"),url("../_css/_fonts/2d1e8a5f-eb7a-47a1-be1d-878bb9a46b6e.woff") format("woff"),url("../_css/_fonts/54838aa7-3cb7-478e-b2a6-14eef3033f22.ttf") format("truetype");
+    }
+
+
+
+/* Text fixes */
+.keri {
+    margin-bottom: 0;
+}
 /* SECTION 1 */
 /* Subsection 1 */
 /* Subsection 2 */

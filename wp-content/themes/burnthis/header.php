@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Burn This Broadway</title>
 
 
 <!-- Google Tag Manager -->
