@@ -65,6 +65,26 @@
     font-size: 1.2em;
   }
 }
+
+
+/* 404 */
+
+.error404 .container {
+  max-width: 680px;
+}
+
+h1._404-head {
+  font-size: 6rem;
+}
+
+._404-text {
+  font-size: 5rem;
+  line-height: 4rem;
+  color: #feb5c2;
+padding-bottom: 3rem;
+}
+
+
 /* SECTION 1 */
 /* Subsection 1 */
 /* Subsection 2 */
