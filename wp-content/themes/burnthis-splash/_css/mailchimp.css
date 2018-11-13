@@ -1,0 +1,224 @@
+#mc-embedded-subscribe {
+  margin: 0px;
+  text-indent: 0px;
+  letter-spacing: 0.1em;
+}
+
+#mc-embedded-subscribe-form {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
+
+
+#mc_embed_signup_scroll {
+  display: flex;
+  flex-flow: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.mc-field-group {
+  width: 100%;
+}
+
+.form-control.text-field, .mc-field-group {
+  border-radius: 0px;
+}
+
+.mc-field-group.email-signup {
+  height: auto none !important;
+}
+
+@media (max-width: 991px) and (min-width: 767px) {
+  .text-field {
+    font-size: .7em;
+  }
+}
+
+@media (max-width:479px) {
+  .email-form {
+    /* width: 350px; */
+  }
+  .form-2 {
+    /* width: 350px; */
+  }
+}
+
+.footer, .footer-column.one {
+  height: fit-content;
+}
+
+@media (max-width: 991px) {
+
+  h2.email-label {
+    text-align: left;
+    padding-bottom: 10px;
+}
+  #mc_embed_signup_scroll {
+    display: flex;
+    flex-flow: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+  }
+}
+
+
+
+/* RESPONSES */
+
+#mce-responses {
+  font-size: .7em;
+  background-color: transparent;
+  top: 50px;
+  line-height: 1.25em;
+}
+
+#mce-success-response, #mce-error-response {
+    padding: 8px 13px;
+  background: #fff;
+}
+
+#mce-success-response a, #mce-error-response a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border 150ms ease;
+}
+
+#mce-success-response a:hover, #mce-error-response a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+  text-decoration: none;
+}
+
+#mc_embed_signup_scroll div.mce_inline_error {
+  background-color: transparent !important;
+  font-size: 0em !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  border-color: none !important;
+  color: transparent !important;
+  height: 0 !important;
+}
+
+#mc_embed_signup_scroll div.mce_inline_error {
+  margin-bottom: -2px !important;
+  border-bottom: 2px solid #ea1c25 !important;
+}
+
+#mc_embed_signup input.mce_inline_error {
+  border: 0px solid transparent !important;
+}
+
+.email-signup {
+  height: auto;
+}
+
+@media (max-width: 991px) {
+  #mce-responses, #mc_embed_signup div.mce_inline_error {
+    top: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  #mc_embed_signup, #mc_embed_signup form {
+    width: 350px;
+  }
+}
+
+@media (max-width: 364px) {
+  #mc_embed_signup, #mc_embed_signup form {
+    width: 100%;
+  }
+}
+
+/* PLACEHOLDER STUFF */
+
+w-input {}
+
+input.text-field-2 {
+  color: #000;
+  font-size: .9em;
+  padding: 5px;
+}
+
+input#mce-EMAIL, input.email-signup, .thankyou {
+  color: #000;
+  /* padding-left: 0px; */
+  /* letter-spacing: 0.1em; */
+}
+
+input#mce-EMAIL::placeholder, input.email-signup::placeholder {
+  color: #000;
+  text-indent: 0px;
+  /* letter-spacing: 0.1em; */
+}
+
+input#mce-EMAIL :placeholder-shown, .email-signup :placeholder-shown {
+  color: #000;
+  text-indent: 0px;
+  /* letter-spacing: 0.1em; */
+}
+
+input#mce-EMAIL::-webkit-input-placeholder, input.email-signup::-webkit-input-placeholder {
+  /* Chrome */
+  color: #000;
+  transition: opacity 150ms ease-in-out;
+  text-indent: 0px;
+  /* letter-spacing: 0.1em; */
+}
+
+input#mce-EMAIL:focus::-webkit-input-placeholder, input.email-signup:focus::-webkit-input-placeholder {
+  opacity: 0.5;
+  text-indent: 0px;
+  /* letter-spacing: 0.1em; */
+}
+
+input#mce-EMAIL:-ms-input-placeholder, input.email-signup:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #000;
+  transition: opacity 150ms ease-in-out;
+  text-indent: 0px;
+  /* letter-spacing: 0.1em; */
+}
+
+input#mce-EMAIL:focus:-ms-input-placeholder, input.email-signup:focus:-ms-input-placeholder {
+  opacity: 0.5;
+  text-indent: 0px;
+  /* letter-spacing: 0.1em; */
+}
+
+input#mce-EMAIL::-moz-placeholder, input.email-signup::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #000;
+  opacity: 1;
+  transition: opacity 150ms ease-in-out;
+  text-indent: 0px;
+  /* letter-spacing: 0.1em; */
+}
+
+input#mce-EMAIL:focus::-moz-placeholder, input.email-signup:focus::-moz-placeholder {
+  opacity: 0.5;
+  text-indent: 0px;
+  /* letter-spacing: 0.1em; */
+}
+
+input#mce-EMAIL:-moz-placeholder, input.email-signup:-moz-placeholder {
+  /* Firefox 4 - 18 */
+  color: #000;
+  opacity: 1;
+  transition: opacity 150ms ease-in-out;
+  text-indent: 0px;
+  /* letter-spacing: 0.1em; */
+}
+
+input#mce-EMAIL:focus:-moz-placeholder, input.email-signup:focus:-moz-placeholder {
+  opacity: 0.5;
+  text-indent: 0px;
+  /* letter-spacing: 0.1em; */
+}
