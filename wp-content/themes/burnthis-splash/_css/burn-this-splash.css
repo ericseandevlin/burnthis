@@ -1,99 +1,80 @@
-body {
-  background-color: #d62340;
-  font-family: 'Helveticaneue condensed', sans-serif;
-  color: #333;
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: 700;
+.push-footer {
+  margin-bottom: -100px;
 }
 
-.name {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  color: #feb5c2;
-  font-size: 4.46em;
-  line-height: 0.8em;
+.body {
+  height: 100%;
+  background-color: #000;
+  font-family: 'Lulo Clean One', sans-serif;
+  color: #fff;
+  letter-spacing: -0.5em;
 }
 
-.byline {
-  margin-top: 5px;
-  margin-bottom: 0px;
-  color: #ff8ca4;
-  font-size: 3.4em;
-  line-height: 0.8em;
-  font-weight: 700;
-}
-
-.date {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  color: #000;
-  font-size: 2.166em;
-  line-height: 1em;
-}
-
-.email-label {
-  margin-top: 0px;
-  margin-right: 10px;
-  margin-bottom: 0px;
-  color: #ff8ca4;
-  font-size: 2.166em;
-  line-height: 1em;
-}
-
-.form-block {
-  width: 50%;
-  margin-bottom: 5px;
-}
-
-.form {
+.footer-wrapper {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+  height: 100px;
+  margin-right: 3em;
+  margin-left: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
-.text-field {
-  width: 300px;
-  height: 38px;
-  margin-bottom: 0px;
-  padding-bottom: 8px;
-  border-style: none;
-  background-color: #ff8ca4;
-  color: #000;
-  font-size: 0.7em;
-  letter-spacing: 0.5px;
+.main-wrapper {
+  position: relative;
+  height: 100%;
 }
 
-.send-button {
-  height: 38px;
-  padding: 5px 8px 5px 10px;
-  background-color: #f7f6f7;
-  -webkit-transition: background-color 200ms ease;
-  transition: background-color 200ms ease;
-  color: #d0223f;
-  font-size: 0.7em;
+.header-wrapper {
+  display: block;
+  max-width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
 }
 
-.send-button:hover {
-  background-color: #000;
-  color: #f7f6f7;
+.main-content {
+  display: block;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.social-holder {
-  display: none;
-  margin-bottom: 10px;
+.preview-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -104,315 +85,297 @@ body {
   align-items: center;
 }
 
-.social-link {
+.pre-bold {
+  font-family: 'Lulo Clean Bold', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: -0.12em;
+}
+
+.preview-line {
+  margin-bottom: 0px;
+  color: #c19a01;
+  font-size: 2.2em;
+  line-height: 1.1em;
+  text-align: center;
+  letter-spacing: -0.3em;
+}
+
+.presale-line {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+  line-height: 1.1em;
+  text-align: center;
+  letter-spacing: -0.07em;
+}
+
+.text-span {
+  font-family: 'Lulo Clean Bold', sans-serif;
+  letter-spacing: -0.1em;
+}
+
+.signup-wrapper {
+  margin-top: 3em;
+  margin-bottom: 0.5em;
+}
+
+.form-wrapper {
+  display: block;
+  max-width: 35em;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.signup-input {
+  width: 500px;
+  height: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: -0.35em;
+  cursor: text;
+}
+
+.signup-submit {
+  width: 115px;
+  height: 25px;
+  padding: 8px 12px;
+  border: 1px solid #c19a01;
+  background-color: #c19a01;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: 'Lulo Clean Bold', sans-serif;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.signup-submit:hover {
+  border: 1px solid #c19a01;
+  background-color: #000;
+}
+
+.form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.theater-wrapper {
+  text-align: center;
+}
+
+.theater-line {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 0.95em;
+  letter-spacing: -0.17em;
+}
+
+.text-span-2 {
   margin-right: 5px;
-  padding: 5px;
-  -webkit-filter: brightness(0%);
-  filter: brightness(0%);
-  -webkit-transition: -webkit-filter 200ms ease;
-  transition: -webkit-filter 200ms ease;
-  transition: filter 200ms ease;
-  transition: filter 200ms ease, -webkit-filter 200ms ease;
+  font-family: 'Lulo Clean Bold', sans-serif;
+}
+
+.social-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  cursor: pointer;
 }
 
 .social-link:hover {
-  -webkit-filter: brightness(200%);
-  filter: brightness(200%);
+  -webkit-filter: saturate(0%) brightness(200%);
+  filter: saturate(0%) brightness(200%);
 }
 
-.colophon {
-  display: inline-block;
-  font-size: 14px;
-  text-align: center;
-  letter-spacing: 0.5px;
-}
-
-.privacy-link {
-  display: block;
-  border-bottom: 1px solid transparent;
-  -webkit-transition: border 200ms ease;
-  transition: border 200ms ease;
-  color: #a0a0a0;
-  font-size: 1em;
-  text-decoration: none;
-}
-
-.privacy-link:hover {
-  border-bottom-color: #a0a0a0;
-}
-
-.title {
-  display: block;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: -8px;
-  color: #000;
-  font-size: 6.71em;
-  line-height: 0.8em;
-}
-
-.colophon-2 {
-  font-size: 14px;
-  text-align: center;
-  letter-spacing: 0.5px;
-}
-
-.privacy-link-2 {
-  border-bottom: 1px solid transparent;
-  -webkit-transition: border 200ms ease;
-  transition: border 200ms ease;
-  color: #a0a0a0;
-  text-decoration: none;
-}
-
-.privacy-link-2:hover {
-  border-bottom-color: #a0a0a0;
-}
-
-.footer-link {
-  margin-top: 5px;
-  margin-right: 20px;
+.social-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 50%;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border-bottom: 2px solid transparent;
-  -webkit-transition: border 200ms ease;
-  transition: border 200ms ease;
-  color: #000;
-  font-size: 1.2em;
-  line-height: 1.25em;
-  text-align: center;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.image-2 {
+  display: none;
+}
+
+.link-2 {
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  color: #fff;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
-.footer-link:hover {
-  border-bottom-color: #000;
-  -webkit-transition: border 200ms ease;
-  transition: border 200ms ease;
+.link-2:hover {
+  color: #c19a01;
 }
 
-.body {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 20px;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  background-color: #d0223f;
-  color: #000;
-  font-size: 1.71em;
+.hero-desktop {
+  display: block;
+  max-width: 100%;
 }
 
-.email-input {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 30px;
-}
-
-.role {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 4px;
-  color: #f77c96;
-  font-size: 0.6em;
-  line-height: 1em;
-  font-weight: 700;
-}
-
-.keri {
-  margin-top: 0px;
-  color: #facad2;
-  font-size: 4.46em;
-  line-height: 0.8em;
+.hero-mobile {
+  display: none;
 }
 
 @media (max-width: 991px) {
-  .email-label {
-    font-size: 1.5em;
-    line-height: 1em;
+  .image-2 {
+    display: none;
   }
-  .form-block {
-    width: 100%;
+  .hero-desktop {
+    max-width: 100%;
   }
-  .text-field {
-    height: auto;
-    font-size: 0.8em;
-  }
-  .send-button {
-    height: auto;
-    padding: 10px 20px 10px 23px;
-    font-size: 0.8em;
-  }
-  .footer-link {
-    margin-right: 0px;
-  }
-  .body {
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    font-size: 21px;
-  }
-  .email-input {
-    height: 40px;
+  .hero-mobile {
+    display: none;
   }
 }
 
 @media (max-width: 767px) {
-  .main-container {
-    width: 100%;
-    height: 100%;
+  .preview-wrapper {
+    margin-bottom: 2em;
   }
-  .name {
-    margin-bottom: 5px;
-    font-size: 5.5em;
+  .preview-line {
+    font-size: 1.6em;
   }
-  .byline {
-    margin-top: 0px;
-    font-size: 4em;
-    line-height: 0.8em;
-  }
-  .date {
-    font-size: 2em;
-  }
-  .email-label {
-    padding-bottom: 10px;
-    font-size: 2em;
-  }
-  .form-block {
-    max-width: 550px;
-    margin-bottom: 20px;
-  }
-  .form {
-    width: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-  }
-  .text-field {
-    width: 100%;
-    height: auto;
+  .presale-line {
     font-size: 1em;
+    line-height: 1.3em;
   }
-  .send-button {
-    height: auto;
-    font-size: 1em;
+  .theater-line {
+    margin-right: 4px;
   }
-  .title {
-    margin-left: -2px;
-    font-size: 8em;
+  .text-span-2 {
+    margin-right: 5px;
   }
-  .footer-link {
-    font-size: 1.25em;
-    line-height: 1px;
+  .image-2 {
+    display: none;
   }
-  .body {
-    padding: 20px 10px 10px 15px;
-    font-size: 16px;
+  .hero-desktop {
+    max-width: 100%;
   }
-  .email-input {
-    width: 100%;
-    height: auto;
-  }
-  .role {
-    margin-left: 0px;
-    font-size: 0.8em;
-    line-height: 1.4em;
-  }
-  .keri {
-    margin-bottom: 5px;
-    font-size: 5.5em;
+  .hero-mobile {
+    display: none;
   }
 }
 
 @media (max-width: 479px) {
-  .name {
-    font-size: 5.5em;
+  .footer-wrapper {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 1em;
   }
-  .byline {
-    line-height: 0.9em;
+  .main-content {
+    margin-right: 10px;
+    margin-left: 10px;
   }
-  .date {
-    font-size: 3em;
-    line-height: 1em;
+  .preview-wrapper {
+    margin-bottom: 1em;
   }
-  .email-label {
-    margin-bottom: 5px;
-    padding-bottom: 0px;
-    font-size: 2.5em;
+  .preview-line {
+    font-size: 1.1em;
+    line-height: 1.2em;
   }
-  .form-block {
-    max-width: 350px;
+  .presale-line {
+    font-size: 0.8em;
   }
-  .form {
+  .signup-input {
+    width: 200px;
+  }
+  .theater-line {
+    margin-bottom: auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+    line-height: 1.4em;
   }
-  .text-field {
-    font-size: 2em;
+  .image {
+    display: none;
   }
-  .send-button {
-    font-size: 2em;
+  .image-2 {
+    display: block;
   }
-  .title {
-    margin-left: 0px;
-    padding-top: 5px;
-    font-size: 8em;
+  .fb-img {
+    height: 20px;
   }
-  .footer-link {
-    font-size: 2em;
+  .twitter-img {
+    height: 20px;
   }
-  .body {
-    padding-top: 10px;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    font-size: 16px;
+  .insta-img {
+    height: 20px;
   }
-  .role {
-    padding-top: 5px;
-    font-size: 1.5em;
-    line-height: 1.2em;
+  .amex-img {
+    width: 145px;
   }
-  .keri {
-    font-size: 5.5em;
+  .hero-desktop {
+    display: none;
+  }
+  .hero-mobile {
+    display: block;
+    max-width: 100%;
   }
 }
 
-/* @font-face {
-  font-family: 'Helveticaneue condensed';
-  src: url('../fonts/HelveticaNeue-Condensed-Bold.ttf') format('truetype');
+@font-face {
+  font-family: 'Lulo Clean Bold';
+  src: url('../fonts/38169C_2_0.woff2') format('woff2'), url('../fonts/38169C_2_0.eot') format('embedded-opentype'), url('../fonts/38169C_2_0.woff') format('woff'), url('../fonts/38169C_2_0.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Helveticaneue condensed';
-  src: url('../fonts/HelveticaNeue-Condensed.ttf') format('truetype');
+  font-family: 'Lulo Clean One';
+  src: url('../fonts/38169C_1_0.woff2') format('woff2'), url('../fonts/38169C_1_0.eot') format('embedded-opentype'), url('../fonts/38169C_1_0.woff') format('woff'), url('../fonts/38169C_1_0.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
-} */
+}

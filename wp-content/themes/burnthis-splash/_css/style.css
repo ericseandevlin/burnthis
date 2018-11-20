@@ -1,94 +1,36 @@
-/* GENERAL */
-
-/* HelveticaNeue Condensed */
-    @font-face{
-        font-family:"Helveticaneue condensed";
-        src:url("../_css/_fonts/960546c0-8bc0-4951-94f4-a871c16e8211.eot?#iefix");
-        src:url("../_css/_fonts/960546c0-8bc0-4951-94f4-a871c16e8211.eot?#iefix") format("eot"),url("../_css/_fonts/02980b3d-1e37-4378-a5c6-4cf0d6ce0ba5.woff2") format("woff2"),url("../_css/_fonts/2d1e8a5f-eb7a-47a1-be1d-878bb9a46b6e.woff") format("woff"),url("../_css/_fonts/54838aa7-3cb7-478e-b2a6-14eef3033f22.ttf") format("truetype");
-    }
-
-
-
-/* Text fixes */
-.keri {
-    margin-bottom: 0;
+/* FORM OVERRIDES */
+.signup-input {
+  padding-left: 10px;
+  padding-right: 10px;
+  letter-spacing: -.25em;
+}
+.signup-submit {
+  height: 49px;
 }
 
 
-.form-block {
-  width: 100%;
-}
-.email-label {
-}
-
-.email-input {
-  height: auto;
-}
-
-.text-field {
-    font-family: 'Helveticaneue condensed', sans-serif;
-    padding-left: 6px;
-    padding-bottom: 3px;
-    padding-top: 3px;
-    font-size: 1em;
-    letter-spacing: 1px;
-}
-
-.send-button {
-  font-family: 'Helveticaneue condensed', sans-serif;
+.submit-button.send-button {
+  width: 115px;
+  height: 49px;
+  padding: 8px 12px;
+  border: 1px solid #c19a01;
+  background-color: #c19a01;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: 'Lulo Clean Bold', sans-serif;
+  font-size: 0.9em;
   cursor: pointer;
-  height: 44px;
 }
 
-.send-button:hover {
-  border: none;
+.submit-button.send-button:hover {
+  border: 1px solid #c19a01;
+  background-color: #000;
 }
 
-
-@media (max-width: 991px) {
-  .text-field {
-    font-size: 1.5em;
-  }
-  #mce-responses {
-    font-size: 1em;
-  }
+.form {
+  justify-content: center;
 }
 
-@media (max-width: 467px) {
-.send-button {
-  font-size: 1em;
+.preview-line {
+  margin-top: 0;
 }
-  .text-field {
-    font-size: 1.2em;
-  }
-  #mce-responses {
-    font-size: 1.2em;
-  }
-}
-
-
-/* 404 */
-
-.error404 .container {
-  max-width: 680px;
-}
-
-h1._404-head {
-  font-size: 6rem;
-}
-
-._404-text {
-  font-size: 5rem;
-  line-height: 4rem;
-  color: #feb5c2;
-padding-bottom: 3rem;
-}
-
-
-/* SECTION 1 */
-/* Subsection 1 */
-/* Subsection 2 */
-
-/* SECTION 2 */
-/* Subsection 1 */
-/* Subsection 2 */
