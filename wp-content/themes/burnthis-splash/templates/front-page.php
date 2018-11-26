@@ -9,7 +9,7 @@
 
   <div class="push-footer">
     <div class="main-wrapper">
-      <div class="header-wrapper"><img src="<?= get_template_directory_uri(); ?>/_images/burnthis_hero_image_desktop_zoom.jpg" alt="" class="hero-desktop"><img src="<?= get_template_directory_uri(); ?>/_images/burnthis_hero_image_mobile.jpg" alt="" class="hero-mobile"></div>
+      <div class="header-wrapper"><img src="<?= get_template_directory_uri(); ?>/_images/burnthis_hero_image_desktop.jpg" alt="" class="hero-desktop"><img src="<?= get_template_directory_uri(); ?>/_images/burnthis_hero_image_mobile.jpg" alt="" class="hero-mobile"></div>
       <div class="content-wrapper">
         <div class="main-content">
           <div class="preview-wrapper">

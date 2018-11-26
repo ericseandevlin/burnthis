@@ -94,7 +94,7 @@
 
 .preview-line {
   margin-bottom: 0px;
-  color: #c19a01;
+  color: #bb9b33;
   font-size: 2.2em;
   line-height: 1.1em;
   text-align: center;
@@ -149,7 +149,7 @@
   height: 25px;
   padding: 8px 12px;
   border: 1px solid #c19a01;
-  background-color: #c19a01;
+  background-color: #bb9b33;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   font-family: 'Lulo Clean Bold', sans-serif;
