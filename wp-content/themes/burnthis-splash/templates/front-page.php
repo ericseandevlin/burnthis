@@ -9,18 +9,45 @@
 
   <div class="push-footer">
     <div class="main-wrapper">
-      <div class="header-wrapper"><img src="<?= get_template_directory_uri(); ?>/_images/burnthis_hero_image_desktop.png" alt="" class="hero-desktop"><img src="<?= get_template_directory_uri(); ?>/_images/burnthis_hero_image_mobile.jpg" alt="" class="hero-mobile"></div>
+      <div class="header-wrapper">
+    <?php if ( have_rows( 'hero_image' ) ) : ?>
+         <?php
+         while ( have_rows( 'hero_image' ) ) : the_row();
+           $desktop = get_sub_field( 'hero_desktop' );
+           $mobile = get_sub_field( 'hero_mobile', false, false );
+          ?>
+
+        <img src="<?= $desktop ?>" alt="" class="hero-desktop">
+        <img src="<?= $mobile ?>" alt="" class="hero-mobile">
+
+      <?php endwhile; endif; ?>
+      </div>
+
+
       <div class="content-wrapper">
         <div class="main-content">
+      <?php if ( have_rows( 'preview_lines' ) ) : ?>
           <div class="preview-wrapper">
-            <p class="preview-line"><span class="pre-bold">PREVIEWS BEGIN</span> MARCH 15, 2019</p>
-            <p class="preview-line"><span class="pre-bold">OPENS</span> APRIL 16, 2019</p>
+             <?php
+             while ( have_rows( 'preview_lines' ) ) : the_row();
+                    $preview = get_sub_field( 'preview_line' );
+            ?>
+            <p class="preview-line"><?= $preview ?></p>
+        <?php endwhile; ?>
           </div>
+        <?php endif; ?>
+
+        <?php if ( have_rows( 'presale_lines' ) ) : ?>
           <div class="presale-wrapper">
-            <p class="presale-line"><span class="bold text-span">american express presale<br></span>nov 28 10:00 am - nov 30 9:59 am</p>
-            <p class="presale-line"><span class="bold text-span">AUDIENCE REWARDS PRESALE<br>‍</span>nov 30 10:00 am - dec 2 9:59 am</p>
-            <p class="presale-line"><span class="bold text-span">General Onsale<br></span>dec 2 10:00 am</p>
+         <?php
+         while ( have_rows( 'presale_lines' ) ) : the_row();
+                $presale = get_sub_field( 'presale_line' );
+        ?>
+            <p class="presale-line"><?= $presale ?></p>
+        <?php endwhile; ?>
           </div>
+        <?php endif; ?>
+
           <div class="signup-wrapper">
             <div class="form-wrapper w-form">
             	<?php
@@ -28,9 +55,19 @@
         		 ?>
             </div>
           </div>
+      <?php if ( have_rows( 'theater_info' ) ) : ?>
           <div class="theater-wrapper">
-            <p class="theater-line"><a href="https://goo.gl/maps/fsF2jfZkZbk" target="_blank" class="link link-2"><span class="bold text-span-2">HUDSON THEATRE</span></a> 141 W 44TH ST, NEW YORK, NY 10036</p>
+          <?php
+          while ( have_rows( 'theater_info' ) ) : the_row();
+                 $name = get_sub_field( 'theater_name' );
+                 $link = get_sub_field( 'theater_link' );
+                 $address = get_sub_field( 'theater_address' );
+          ?>
+            <p class="theater-line">
+            <a href="<?= $link ?>" target="_blank" class="link link-2"><span class="bold text-span-2"><?= $name ?></span></a> <?= $address ?></p>
+        <?php endwhile; ?>
           </div>
+      <?php endif; ?>
         </div>
       </div>
     </div>
