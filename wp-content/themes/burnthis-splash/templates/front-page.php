@@ -14,7 +14,7 @@
         <div class="main-content">
           <div class="preview-wrapper">
             <p class="preview-line"><span class="pre-bold">PREVIEWS BEGIN</span> MARCH 15, 2019</p>
-            <p class="preview-line"><span class="pre-bold">OPENS</span> APRIL 15, 2019</p>
+            <p class="preview-line"><span class="pre-bold">OPENS</span> APRIL 16, 2019</p>
           </div>
           <div class="presale-wrapper">
             <p class="presale-line"><span class="bold text-span">american express presale<br></span>nov 28 10:00 am - nov 30 9:59 am</p>
