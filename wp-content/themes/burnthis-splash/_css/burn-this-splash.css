@@ -286,6 +286,8 @@
 }
 
 .privacy-answer {
+  font-size: 18px;
+  line-height: 26px;
   letter-spacing: 0em;
 }
 
@@ -351,6 +353,78 @@
   color: #bb9b33;
 }
 
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+._404-title {
+  margin-bottom: 0px;
+  color: #bb9b33;
+  font-size: 3em;
+  line-height: 1.1em;
+  text-align: center;
+  letter-spacing: -0.3em;
+}
+
+._404-content {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0em;
+}
+
+.heading {
+  font-family: 'Lulo Clean Bold', sans-serif;
+  color: #bb9b33;
+  font-size: 3.5em;
+  text-align: center;
+}
+
 @media (max-width: 991px) {
   .image-2 {
     display: none;
@@ -398,6 +472,9 @@
   }
   .tickets-button {
     width: 300px;
+  }
+  ._404-title {
+    font-size: 1.6em;
   }
 }
 
@@ -466,6 +543,10 @@
   }
   .tickets-button {
     width: 200px;
+  }
+  ._404-title {
+    font-size: 1.1em;
+    line-height: 1.2em;
   }
 }
 

@@ -8,12 +8,13 @@
 
  <div class="main-content">
    <div class="container w-container">
-         <h1 class="_404-head">404</h1>
+    <div class="_404-wrapper">
+         <h1 class="heading">404</h1>
 
-         <div class="_404-text">THE PAGE YOU ARE LOOKING FOR DOESN&#x27;T EXIST OR HAS BEEN MOVED.</div>
+         <div class="_404-content">THE PAGE YOU ARE LOOKING FOR DOESN&#x27;T EXIST OR HAS BEEN MOVED.</div>
 
-         <a href="<?= home_url(); ?>" class="footer-link">RETURN HOME</a>
-
+         <a href="<?= home_url(); ?>">RETURN HOME</a>
+      </div>
    </div>
  </div>
 

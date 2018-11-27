@@ -49,11 +49,25 @@
 /* PRIVACY POLICY */
 
 .privacy-wrapper {
-color: #ffffff;
+  color: #ffffff;
 }
 h1.privacy-title {
-letter-spacing: 0em;
-text-align: center;
+  letter-spacing: 0em;
+  text-align: center;
   font-family: 'Lulo Clean Bold', sans-serif;
+}
 
+/*404*/
+._404-wrapper {
+  text-align: center;
+}
+._404-wrapper a {
+  color: #bb9b33;
+  text-decoration: none;
+  letter-spacing: 0;
+text-align: center;
+padding-top: 3em;
+}
+._404-wrapper a:hover {
+color: #ffffff;
 }
