@@ -344,6 +344,9 @@
   .hero-mobile {
     display: none;
   }
+  .privacy-link {
+    font-size: 0.5em;
+  }
 }
 
 @media (max-width: 479px) {
@@ -402,6 +405,9 @@
   .hero-mobile {
     display: block;
     max-width: 100%;
+  }
+  .privacy-link {
+    line-height: 9px;
   }
 }
 
