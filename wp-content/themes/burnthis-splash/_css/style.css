@@ -3,12 +3,17 @@
   padding-left: 10px;
   padding-right: 10px;
   letter-spacing: -.25em;
+  color: #000000;
 }
 .signup-submit {
   height: 49px;
 }
 
-
+@media (min-width: 479px) and (max-width: 660px) {
+  .signup-input {
+      width: 250px;
+  }
+}
 .submit-button.send-button {
   width: 115px;
   height: 49px;

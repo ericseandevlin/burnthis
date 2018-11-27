@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Burn This</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
