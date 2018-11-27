@@ -22,6 +22,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="msapplication-TileColor" content="#2b5797">
 <meta name="theme-color" content="#ffffff">
 
+<meta name="google-site-verification" content="0HkjfuSyomWSm4X6uBIdEy0raCi4xRxERTrSgyejvJQ" />
+<meta name="yandex-verification" content="de6125905d77fae3" />
+<meta name="msvalidate.01" content="597BD114B2CEC6F82B6F0C62DAB86BC0" />
 
 <?php wp_head(); ?>
 
