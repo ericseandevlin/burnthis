@@ -14,7 +14,7 @@
          <?php
          while ( have_rows( 'hero_image' ) ) : the_row();
            $desktop = get_sub_field( 'hero_desktop' );
-           $mobile = get_sub_field( 'hero_mobile', false, false );
+           $mobile = get_sub_field( 'hero_mobile');
           ?>
 
         <img src="<?= $desktop ?>" alt="" class="hero-desktop">
