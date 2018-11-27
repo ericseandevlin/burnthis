@@ -34,3 +34,16 @@
 .preview-line {
   margin-top: 0;
 }
+
+
+/* PRIVACY POLICY */
+
+.privacy-wrapper {
+color: #ffffff;
+}
+h1.privacy-title {
+letter-spacing: 0em;
+text-align: center;
+  font-family: 'Lulo Clean Bold', sans-serif;
+
+}

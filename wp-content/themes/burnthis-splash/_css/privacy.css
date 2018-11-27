@@ -1,7 +1,7 @@
 body {
   font-size: 1em;
   font-family: 'Helveticaneue condensed', sans-serif;
-  color: #f77c96;
+  color: #ffffff;
 }
 
 h1 {
@@ -29,15 +29,15 @@ body.page-privacy .main-content {
 max-width: 700px;
 }
 .body-privacy {
-  color: #f77c96;
+  color: #ffffff;
 }
 .privacy-question {
   font-size: 1.15em;
-color: #000;
+color: #ffffff;
 line-height: 1.25em;
 }
 .privacy-answer {
-  color: #facad2;
+  color: #ffffff;
   font-size: .85em;
   line-height: 1.25em;
 }
@@ -45,15 +45,15 @@ line-height: 1.25em;
   margin-bottom: 0px;
 }
 .info-link {
-  color: white;
+  color: #bb9b33;
   text-decoration: none;
   border-bottom: 1px solid white;
   transition: all 200ms ease;
   /* transition: color 200ms ease; */
 }
 .info-link:hover {
-  color: #f77c96;
-  border-bottom: 1px solid #f77c96;
+  color: #ffffff;
+  border-bottom: 1px solid #bb9b33;
 }
 @media (max-width: 767px) {
   .main-content {
@@ -62,13 +62,14 @@ line-height: 1.25em;
   }
 }
 .home-link.privacy {
-  color: #f77c96;
+  color: #bb9b33;
   text-decoration: none;
+letter-spacing: 0em;
   font-size: 1em;
   -webkit-transition:  200ms ease;
   transition:  200ms ease;
 }
 .home-link.privacy:hover {
   color: #fff;
-  border-bottom: solid 1px #fff;
+
 }
