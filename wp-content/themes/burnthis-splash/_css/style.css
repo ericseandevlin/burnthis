@@ -1,3 +1,8 @@
+/* OVERRIDES */
+.tickets-button-wrapper a {
+    color: #ffffff;
+    text-decoration: none;
+}
 /* FORM OVERRIDES */
 .signup-input {
   padding-left: 10px;

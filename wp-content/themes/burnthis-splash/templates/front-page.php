@@ -30,9 +30,11 @@
           <div class="preview-wrapper">
              <?php
              while ( have_rows( 'preview_lines' ) ) : the_row();
-                    $preview = get_sub_field( 'preview_line' );
-            ?>
+                  $preview = get_sub_field( 'preview_line' );
+             ?>
+
             <p class="preview-line"><?= $preview ?></p>
+
         <?php endwhile; ?>
           </div>
         <?php endif; ?>
@@ -47,6 +49,19 @@
         <?php endwhile; ?>
           </div>
         <?php endif; ?>
+
+  <?php if ( have_rows( 'tickets_button' ) ) : ?>
+        <div class="tickets-button-wrapper">
+      <?php while ( have_rows( 'tickets_button' ) ) : the_row();
+              $text = get_sub_field( 'button_label' );
+              $link = get_sub_field( 'button_url' );
+       ?>
+          <a href="<?= $link ?>" target="_blank" class="tickets-button">
+              <?= $text ?>
+          </a>
+        <?php endwhile; ?>
+        </div>
+    <?php endif; ?>
 
           <div class="signup-wrapper">
             <div class="form-wrapper w-form">
