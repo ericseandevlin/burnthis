@@ -289,6 +289,23 @@
   letter-spacing: 0em;
 }
 
+.privacy-link {
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+  letter-spacing: 0em;
+  text-decoration: none;
+}
+
+.link-3 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-3:hover {
+  color: #bb9b33;
+}
+
 @media (max-width: 991px) {
   .image-2 {
     display: none;
