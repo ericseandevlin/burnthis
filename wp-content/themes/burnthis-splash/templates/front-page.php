@@ -43,25 +43,33 @@
           <div class="presale-wrapper">
          <?php
          while ( have_rows( 'presale_lines' ) ) : the_row();
-                $presale = get_sub_field( 'presale_line' );
+                $amex = get_sub_field( 'amex_presale' );
+                $aud = get_sub_field( 'aud_rewards' );
+                $gensale = get_sub_field( 'gen_sale' );
         ?>
-            <p class="presale-line"><?= $presale ?></p>
+            <p class="presale-line"><?= $amex ?></p>
+
+          <?php if ( have_rows( 'tickets_button' ) ) : ?>
+                <div class="tickets-button-wrapper">
+              <?php while ( have_rows( 'tickets_button' ) ) : the_row();
+                      $text = get_sub_field( 'button_label' );
+                      $link = get_sub_field( 'button_url' );
+               ?>
+                  <a href="<?= $link ?>" target="_blank" class="tickets-button">
+                      <?= $text ?>
+                  </a>
+                <?php endwhile; ?>
+                </div>
+            <?php endif; ?>
+
+            <p class="presale-line"><?= $aud ?></p>
+            <p class="presale-line"><?= $gensale ?></p>
+
         <?php endwhile; ?>
           </div>
         <?php endif; ?>
 
-  <?php if ( have_rows( 'tickets_button' ) ) : ?>
-        <div class="tickets-button-wrapper">
-      <?php while ( have_rows( 'tickets_button' ) ) : the_row();
-              $text = get_sub_field( 'button_label' );
-              $link = get_sub_field( 'button_url' );
-       ?>
-          <a href="<?= $link ?>" target="_blank" class="tickets-button">
-              <?= $text ?>
-          </a>
-        <?php endwhile; ?>
-        </div>
-    <?php endif; ?>
+
 
           <div class="signup-wrapper">
             <div class="form-wrapper w-form">

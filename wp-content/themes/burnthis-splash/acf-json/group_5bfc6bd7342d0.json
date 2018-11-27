@@ -167,7 +167,7 @@
             "key": "field_5bfc6dce26af4",
             "label": "Presale Lines",
             "name": "presale_lines",
-            "type": "repeater",
+            "type": "group",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -176,16 +176,50 @@
                 "class": "",
                 "id": ""
             },
-            "collapsed": "",
-            "min": 0,
-            "max": 0,
-            "layout": "table",
-            "button_label": "",
+            "layout": "block",
             "sub_fields": [
                 {
+                    "key": "field_5bfdc6716b24a",
+                    "label": "Amex Presale",
+                    "name": "amex_presale",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
                     "key": "field_5bfc71bbc9eac",
-                    "label": "Presale Line",
-                    "name": "presale_line",
+                    "label": "Audience Rewards",
+                    "name": "aud_rewards",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5bfdc6796b24b",
+                    "label": "General Onsale",
+                    "name": "gen_sale",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -292,5 +326,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1543341485
+    "modified": 1543358155
 }
