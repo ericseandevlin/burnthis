@@ -26,6 +26,9 @@
 
       <div class="content-wrapper">
         <div class="main-content">
+
+          <p class="limited-line">STRICTLY LIMITED ENGAGEMENT</p>
+
       <?php if ( have_rows( 'preview_lines' ) ) : ?>
           <div class="preview-wrapper">
              <?php

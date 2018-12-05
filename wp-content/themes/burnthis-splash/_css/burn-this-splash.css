@@ -55,6 +55,10 @@
   text-align: center;
 }
 
+.content-wrapper {
+  letter-spacing: 0em;
+}
+
 .main-content {
   display: block;
   max-width: 800px;
@@ -288,6 +292,7 @@
 .privacy-answer {
   font-size: 18px;
   line-height: 26px;
+  text-align: center;
   letter-spacing: 0em;
 }
 
@@ -425,6 +430,15 @@
   text-align: center;
 }
 
+.limited-line {
+  margin-bottom: 0px;
+  color: #fff;
+  font-size: 2.9em;
+  line-height: 1.1em;
+  text-align: center;
+  letter-spacing: -0.27em;
+}
+
 @media (max-width: 991px) {
   .image-2 {
     display: none;
@@ -474,6 +488,9 @@
     width: 300px;
   }
   ._404-title {
+    font-size: 1.6em;
+  }
+  .limited-line {
     font-size: 1.6em;
   }
 }
@@ -545,6 +562,10 @@
     width: 200px;
   }
   ._404-title {
+    font-size: 1.1em;
+    line-height: 1.2em;
+  }
+  .limited-line {
     font-size: 1.1em;
     line-height: 1.2em;
   }
