@@ -68,6 +68,25 @@
             ]
         },
         {
+            "key": "field_5c3e66a82eade",
+            "label": "Limited line",
+            "name": "limited_line",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_5bfc6c3526af0",
             "label": "Preview Lines",
             "name": "preview_lines",
@@ -326,5 +345,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1543358155
+    "modified": 1547593413
 }

@@ -27,7 +27,7 @@
       <div class="content-wrapper">
         <div class="main-content">
 
-          <p class="limited-line">STRICTLY LIMITED ENGAGEMENT</p>
+          <p class="limited-line"><?php the_field( 'limited_line' ); ?></p>
 
       <?php if ( have_rows( 'preview_lines' ) ) : ?>
           <div class="preview-wrapper">
