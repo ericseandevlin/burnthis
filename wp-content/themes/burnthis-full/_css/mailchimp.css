@@ -1,0 +1,64 @@
+#mc-embedded-subscribe {
+  margin: 0px;
+  text-indent: 0px;
+}
+
+#mc-embedded-subscribe-form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+
+#mc_embed_signup_scroll {
+  display: flex;
+  flex-flow: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+
+/* RESPONSES */
+
+#mce-responses {
+    font-size: .7em;
+    background-color: transparent;
+    top: 50px;
+    line-height: 1.25em;
+    letter-spacing: 0;
+    font-family: 'Lulo Clean Bold', sans-serif;
+    padding: 10px 0;
+}
+
+#mce-success-response a, #mce-error-response a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border 150ms ease;
+}
+
+#mce-success-response a:hover, #mce-error-response a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+  text-decoration: none;
+}
+
+#mc_embed_signup_scroll div.mce_inline_error {
+  background-color: transparent !important;
+  font-size: 0em !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  border-color: none !important;
+  color: transparent !important;
+  height: 0 !important;
+}
+
+#mc_embed_signup_scroll div.mce_inline_error {
+  margin-bottom: -2px !important;
+  border-bottom: 2px solid #ea1c25 !important;
+}
+
+#mc_embed_signup input.mce_inline_error {
+  border: 0px solid transparent !important;
+}
