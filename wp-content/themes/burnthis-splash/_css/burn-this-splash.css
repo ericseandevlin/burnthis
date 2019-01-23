@@ -152,7 +152,7 @@
   width: 115px;
   height: 25px;
   padding: 8px 12px;
-  border: 1px solid #c19a01;
+  border: 1px solid #ba9a33;
   background-color: #bb9b33;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
@@ -162,7 +162,7 @@
 }
 
 .signup-submit:hover {
-  border: 1px solid #c19a01;
+  border: 1px solid #ba9a33;
   background-color: #000;
 }
 
@@ -260,7 +260,7 @@
 }
 
 .link-2:hover {
-  color: #c19a01;
+  color: #ba9a33;
 }
 
 .hero-desktop {
