@@ -26,8 +26,8 @@ max-width: none;
   width: 115px;
   height: 49px;
   padding: 13px 17px;
-  border: 1px solid #ba9a33;
-  background-color: #ba9a33;
+  border: 1px solid #c19a01;
+  background-color: #c19a01;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   font-family: 'Lulo Clean Bold', sans-serif;
@@ -36,7 +36,7 @@ max-width: none;
 }
 
 .submit-button.send-button:hover {
-  border: 1px solid #ba9a33;
+  border: 1px solid #c19a01;
   background-color: #000;
 }
 
