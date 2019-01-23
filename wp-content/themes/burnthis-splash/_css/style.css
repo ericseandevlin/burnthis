@@ -3,6 +3,9 @@
     color: #ffffff;
     text-decoration: none;
 }
+.main-content {
+max-width: none;
+}
 /* FORM OVERRIDES */
 .signup-input {
   padding-left: 10px;
