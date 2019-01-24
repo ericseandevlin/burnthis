@@ -3,6 +3,19 @@
     color: #ffffff;
     text-decoration: none;
 }
+.link-2 {
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    color: #fff;
+
+}
+.theater-logo {
+  width: 300px;
+}
+.theater-line {
+    padding: 0 0 0 9px;
+    margin: 0;
+}
 /* FORM OVERRIDES */
 .signup-input {
   padding-left: 10px;

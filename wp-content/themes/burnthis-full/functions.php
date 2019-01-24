@@ -1,6 +1,6 @@
 <?php
 /*
- *  Author: RPM, Eric Devlin
+ *  Author: RPM, Eric Devlin, Rachelle White
  *  URL: burnthisplay.com
  *  Custom functions, support, custom post types and more.
  */
@@ -150,8 +150,8 @@ function p_widont($content)
 //This function returns a string or an array with all occurrences of search in subject replaced with the given replace value.
 function italicize_title($subject)
 {
-  $search = "Moulin Rouge! The Musical";
-  $replace = "<i>Moulin Rouge! The Musical</i>";
+  $search = "Burn This";
+  $replace = "<i>Burn This</i>";
   $fixed_title = str_replace ( $search , $replace , $subject );
   return $fixed_title;
 }

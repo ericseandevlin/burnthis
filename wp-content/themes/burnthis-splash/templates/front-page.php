@@ -87,10 +87,11 @@
           while ( have_rows( 'theater_info' ) ) : the_row();
                  $name = get_sub_field( 'theater_name' );
                  $link = get_sub_field( 'theater_link' );
-                 $address = get_sub_field( 'theater_address' );
+                 $address = get_sub_field( 'theater_address' );                 $logo = get_sub_field( 'theater_logo' );
+
           ?>
-            <p class="theater-line">
-            <a href="<?= $link ?>" target="_blank" class="link link-2"><span class="bold text-span-2"><?= $name ?></span></a> <?= $address ?></p>
+            <a href="<?= $link ?>" target="_blank" class="link link-2">        <img src="<?= $logo ?>" alt="Hudson Theatre" class="theater-logo">
+            <p class="theater-line"><?= $address ?></p></a>
         <?php endwhile; ?>
           </div>
       <?php endif; ?>
