@@ -15,6 +15,9 @@
 .theater-line {
     padding: 0 0 0 9px;
     margin: 0;
+  }
+.main-content {
+max-width: none;
 }
 /* FORM OVERRIDES */
 .signup-input {

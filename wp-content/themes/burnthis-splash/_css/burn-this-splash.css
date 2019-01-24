@@ -153,7 +153,7 @@
   height: 25px;
   padding: 8px 12px;
   border: 1px solid #c19a01;
-  background-color: #bb9b33;
+  background-color: #c19a01;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   font-family: 'Lulo Clean Bold', sans-serif;
@@ -260,7 +260,7 @@
 }
 
 .link-2:hover {
-  color: #c19a01;
+  color: #ba9a33;
 }
 
 .hero-desktop {
@@ -345,17 +345,17 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 1px solid #bb9b33;
-  background-color: #bb9b33;
+  border: 1px solid #c19a01;
+  background-color: #c19a01;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   font-family: 'Lulo Clean Bold', sans-serif;
 }
 
 .tickets-button:hover {
-  border: 1px solid #bb9b33;
+  border: 1px solid #c19a01;
   background-color: #000;
-  color: #bb9b33;
+  color: #c19a01;
 }
 
 .utility-page-wrap {
