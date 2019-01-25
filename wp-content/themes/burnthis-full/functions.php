@@ -28,13 +28,11 @@
 function burnthis_enqueue_scripts()
 {
     wp_register_style('normalize', get_template_directory_uri() . '/_css/normalize.css');
-    wp_register_style('components', get_template_directory_uri() . '/_css/components.css');
     wp_register_style('mailchimp', get_template_directory_uri() . '/_css/mailchimp.css', array(), getCacheBust());
-    wp_register_style('burnthis', get_template_directory_uri() . '/_css/burn-this-splash.css', array('normalize'), getCacheBust());
+    wp_register_style('burnthis', get_template_directory_uri() . '/_css/burn-this-full-site.webflow.css', array('normalize'), getCacheBust());
     wp_register_style('style', get_template_directory_uri() . '/_css/style.css', array('normalize'), getCacheBust());
 
     wp_enqueue_style('normalize');
-    wp_enqueue_style('components');
     wp_enqueue_style('mailchimp');
     wp_enqueue_style('burnthis');
     wp_enqueue_style('style');
