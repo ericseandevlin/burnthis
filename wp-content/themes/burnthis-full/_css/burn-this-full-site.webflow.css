@@ -1,0 +1,872 @@
+.global-wrapper {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  background-color: #000;
+  color: #fff;
+}
+
+.global-footer {
+  height: 100px;
+  background-color: #000;
+}
+
+.body {
+  height: 100%;
+  min-height: 100%;
+  font-family: Lato, sans-serif;
+}
+
+.global-navbar {
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  border-bottom: 3px solid hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
+  background-color: #000;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, .65);
+}
+
+.global-nav-menu {
+  margin-left: 30px;
+  float: left;
+}
+
+.home-section-1 {
+  position: relative;
+  min-height: 400px;
+  padding-top: 40px;
+  padding-bottom: 75px;
+  background-color: #000;
+}
+
+.html-embed {
+  position: relative;
+  height: 0vh;
+  min-height: auto;
+}
+
+.home-section-2 {
+  position: relative;
+  height: 100vh;
+  background-color: #000;
+  background-image: url('../images/burnthis_hero_image_desktop_v2.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.global-nav-tickets {
+  overflow: hidden;
+  width: 260px;
+  height: 75px;
+  float: right;
+  background-color: hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
+  cursor: pointer;
+}
+
+.html-embed-2 {
+  position: relative;
+  height: 100%;
+  border-bottom: 5px solid hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
+}
+
+.get-tickets-text {
+  position: relative;
+  top: -60px;
+  display: block;
+  margin-top: 15px;
+  margin-left: 60px;
+  font-family: 'Lulo Clean Bold';
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: 700;
+  letter-spacing: -2px;
+}
+
+.global-nav-link {
+  padding: 20px 20px 25px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  font-family: 'Lulo Clean Bold';
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-decoration: none;
+}
+
+.about-columns {
+  padding-bottom: 30px;
+}
+
+.about-text {
+  max-width: 60%;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  font-family: Lato, sans-serif;
+  font-size: 1.5em;
+  line-height: 1.6em;
+  font-weight: 300;
+  letter-spacing: normal;
+}
+
+.section-title {
+  padding-bottom: 25px;
+  font-family: 'Lulo Clean One';
+  font-size: 5.1em;
+  line-height: 1.2em;
+  font-weight: 400;
+  letter-spacing: -13px;
+}
+
+.text-span-4 {
+  font-family: 'Lulo Clean Bold';
+}
+
+.home-section-3 {
+  position: relative;
+  min-height: 400px;
+  padding-top: 40px;
+  padding-bottom: 75px;
+  background-color: #000;
+}
+
+.home-section-4 {
+  position: relative;
+  height: 100vh;
+  background-color: #000;
+  background-image: url('../images/burnthis_hero_image_desktop_v2.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.home-section-5 {
+  position: relative;
+  min-height: 400px;
+  padding-top: 10px;
+  padding-bottom: 70px;
+  background-color: #000;
+}
+
+.cast-section {
+  padding-right: 100px;
+  padding-left: 100px;
+  text-align: left;
+}
+
+.cast-block-holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 90vw;
+  margin-right: 0px;
+  margin-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+}
+
+.cast-block {
+  display: block;
+  margin-right: 5px;
+  margin-left: 5px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.cast-photo {
+  border: 1px none #000;
+}
+
+.cast-name {
+  margin-bottom: 0px;
+  font-family: 'Lulo Clean Bold';
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 1.1em;
+  text-align: left;
+  letter-spacing: -2px;
+  text-decoration: none;
+}
+
+.image {
+  min-width: 250px;
+  border: 1px none #000;
+}
+
+.home-section-6 {
+  position: relative;
+  height: 100vh;
+  margin-bottom: -20px;
+  padding-bottom: 0px;
+  background-color: #000;
+  background-image: url('../images/burnthis_hero_image_desktop_v2.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.home-section-7 {
+  position: relative;
+  min-height: 400px;
+  padding-bottom: 2px;
+  background-color: hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
+}
+
+.tickets-column-two {
+  padding-right: 100px;
+}
+
+.tickets-column-one {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.global-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  height: 74px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
+  background-color: hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
+  -webkit-transform: skew(-23deg, 0deg);
+  -ms-transform: skew(-23deg, 0deg);
+  transform: skew(-23deg, 0deg);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  text-decoration: none;
+}
+
+.global-button:hover {
+  border-style: solid;
+  border-width: 3px;
+  border-color: hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
+  background-color: #000;
+}
+
+.global-button-text {
+  -webkit-transform: skew(23deg, 0deg);
+  -ms-transform: skew(23deg, 0deg);
+  transform: skew(23deg, 0deg);
+  font-family: 'Lulo Clean Bold';
+  color: #fff;
+  font-size: 1.6em;
+  font-style: normal;
+  letter-spacing: -3px;
+  text-decoration: none;
+}
+
+.news-block-holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: visible;
+  width: 90vw;
+  margin: 40px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.news-block {
+  width: 30%;
+  height: 250px;
+  background-color: #000;
+}
+
+.news-section {
+  padding-right: 100px;
+  padding-bottom: 60px;
+  padding-left: 100px;
+}
+
+.gold {
+  color: hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
+}
+
+.home-section-8 {
+  position: relative;
+  height: 18vh;
+  background-color: #000;
+  background-image: url('../images/burnthis_hero_image_desktop_v2.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.home-section-9 {
+  position: relative;
+  min-height: 400px;
+  background-color: #000;
+}
+
+.faq-section {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.social-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+
+.social-link:hover {
+  -webkit-filter: saturate(0%) brightness(200%);
+  filter: saturate(0%) brightness(200%);
+}
+
+.privacy-link {
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+  letter-spacing: 0em;
+  text-decoration: none;
+}
+
+.social-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 50%;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.footer-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  margin-right: 3em;
+  margin-left: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #000;
+}
+
+.link-3 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-3:hover {
+  color: #bb9b33;
+}
+
+.about-content-holder {
+  max-width: 80vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bullet-title {
+  font-family: 'Lulo Clean Bold';
+  color: hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
+  font-size: 2em;
+  line-height: 1.1em;
+  letter-spacing: -3px;
+}
+
+.ticket-text {
+  width: 50vw;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  font-family: Lato, sans-serif;
+  font-size: 1.5em;
+  line-height: 1.9em;
+  font-weight: 300;
+  letter-spacing: normal;
+}
+
+.cast-role {
+  margin-top: 0px;
+  font-family: 'Lulo Clean Bold';
+  color: hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
+  font-size: 1.1em;
+  text-align: left;
+  letter-spacing: -2px;
+  text-decoration: none;
+}
+
+.header-section {
+  position: relative;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.creative-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 60px;
+  margin-bottom: 60px;
+  margin-left: 60px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.creative-name {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Lulo Clean Bold';
+  color: #fff;
+  font-size: 1.5em;
+  line-height: 1.1em;
+  text-align: left;
+  letter-spacing: -2px;
+  text-decoration: none;
+}
+
+.creative-role {
+  margin-top: 0px;
+  font-family: 'Lulo Clean Bold';
+  color: hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
+  font-size: 1.1em;
+  text-align: left;
+  letter-spacing: -2px;
+  text-decoration: none;
+}
+
+.creative-block-holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 90vw;
+  margin-top: 25px;
+  margin-right: 0px;
+  margin-left: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+}
+
+.nav-link-text {
+  display: inline-block;
+}
+
+.nav-link-bar {
+  position: relative;
+  left: -12px;
+  bottom: -7px;
+  display: inline-block;
+  width: 3px;
+  height: 25px;
+  background-color: hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
+  opacity: 0;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.title-slash {
+  color: hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
+}
+
+@media (max-width: 991px) {
+  .global-nav-menu {
+    margin-left: 0px;
+    background-color: #000;
+  }
+  .home-section-1 {
+    overflow: hidden;
+    min-height: 400px;
+  }
+  .home-section-2 {
+    background-position: 50% 50%;
+  }
+  .menu-button {
+    padding: auto 25px;
+    float: left;
+  }
+  .menu-button.w--open {
+    background-color: #000;
+  }
+  .icon {
+    color: #fff;
+    font-size: 1.5em;
+  }
+  .about-text {
+    overflow: visible;
+    width: auto;
+  }
+  .section-title {
+    overflow: visible;
+    font-size: 2.7em;
+    letter-spacing: -8px;
+  }
+  .home-section-3 {
+    overflow: hidden;
+    min-height: 400px;
+  }
+  .home-section-4 {
+    background-position: 50% 50%;
+  }
+  .home-section-5 {
+    overflow: hidden;
+    min-height: 400px;
+  }
+  .cast-section {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .cast-block-holder {
+    width: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .cast-block {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .home-section-6 {
+    background-position: 50% 50%;
+  }
+  .home-section-7 {
+    overflow: hidden;
+    min-height: 400px;
+  }
+  .tickets-column-one {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .news-block-holder {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .news-section {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .home-section-8 {
+    background-position: 50% 50%;
+  }
+  .home-section-9 {
+    overflow: hidden;
+    min-height: 400px;
+  }
+  .faq-section {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .ticket-text {
+    overflow: visible;
+    width: auto;
+  }
+  .header-section {
+    background-position: 50% 50%;
+  }
+  .creative-block {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .creative-block-holder {
+    width: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-title {
+    font-size: 2.3em;
+    letter-spacing: -7px;
+  }
+  .cast-block-holder {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .cast-photo {
+    min-width: 150px;
+  }
+  .tickets-column-one {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .global-button {
+    width: 250px;
+    height: 60px;
+  }
+  .global-button-text {
+    font-size: 1.3em;
+  }
+  .privacy-link {
+    font-size: 0.5em;
+  }
+  .creative-block-holder {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 479px) {
+  .global-navbar {
+    height: 50px;
+    font-size: 1em;
+  }
+  .global-nav-menu {
+    margin-left: 0px;
+    background-color: #000;
+  }
+  .menu-button {
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    background-color: #000;
+  }
+  .global-nav-tickets {
+    width: 234px;
+    height: 50px;
+    float: right;
+  }
+  .html-embed-2 {
+    height: 100%;
+  }
+  .get-tickets-text {
+    margin-top: 27px;
+    margin-left: 72px;
+    font-size: 1.2em;
+  }
+  .section-title {
+    padding-right: 10px;
+    padding-left: 10px;
+    letter-spacing: -6px;
+  }
+  .cast-section {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .cast-block {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .cast-photo {
+    margin-bottom: 20px;
+    margin-left: 25px;
+  }
+  .tickets-column-two {
+    padding-right: 10px;
+  }
+  .tickets-column-one {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .news-section {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .faq-section {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .twitter-img {
+    height: 20px;
+  }
+  .insta-img {
+    height: 20px;
+  }
+  .privacy-link {
+    line-height: 9px;
+  }
+  .amex-img {
+    width: 145px;
+  }
+  .footer-wrapper {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 1em;
+  }
+  .fb-img {
+    height: 20px;
+  }
+  .cast-bio-holder {
+    margin-left: 0px;
+  }
+  .creative-holder {
+    margin-left: 0px;
+  }
+  .creative-block {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@font-face {
+  font-family: 'Lulo Clean One';
+  src: url('../fonts/38169C_1_0.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lulo Clean Bold';
+  src: url('../fonts/38169C_2_0.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
