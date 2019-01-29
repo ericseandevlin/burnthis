@@ -14,6 +14,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 
+<script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+
 <link rel="apple-touch-icon" sizes="180x180" href="<?= get_template_directory_uri(); ?>/favicons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="<?= get_template_directory_uri(); ?>/favicons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="<?= get_template_directory_uri(); ?>/favicons/favicon-16x16.png">
@@ -38,6 +40,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </head>
 <body <?php body_class("body"); ?>>
+  <?php include(locate_template('partials/nav-menu.php')); ?>
 
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJ4V79S"

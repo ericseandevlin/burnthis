@@ -6,7 +6,6 @@
  ?>
 
 <?php get_header(); ?>
-<?php include(locate_template('partials/nav-menu.php')); ?>
 <div class="global-wrapper">
   <div class="header-section">
     <div class="w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none" style=" position: absolute; bottom: 0; width: 100%; height: 10vw;">
