@@ -6,24 +6,20 @@
  ?>
 
 <?php get_header(); ?>
-
-  <div class="push-footer">
-    <div class="main-wrapper">
-
-    </div>
-    <div class="footer-wrapper">
-      <div class="social-wrapper"><a href="<?php the_field('facebook_link', 'option') ?>" class="social-link w-inline-block" target="_blank"><img src="<?= get_template_directory_uri(); ?>/_images/icon_fb.svg" height="35" alt="Burn This Broadway Facebook" width="34.5" class="fb-img"></a>
-
-      <a href="<?php the_field('twitter_link', 'option') ?>" class="social-link w-inline-block" target="_blank"><img src="<?= get_template_directory_uri(); ?>/_images/icon_tw.svg" height="28" alt="Burn This Broadway Twitter" width="91" class="twitter-img"></a>
-
-
-      <a href="<?php the_field('instagram_link', 'option') ?>" class="social-link w-inline-block" target="_blank"><img src="<?= get_template_directory_uri(); ?>/_images/icon_ig.svg" height="35" alt="Burn This Broadway Instagram" width="75" class="insta-img"></a>
-
-
-</div>
- <div class="privacy-link"><a href="privacy" class="link-3">Privacy policy</a></div>
-      <div class="amex-wrapper"><img src="<?= get_template_directory_uri(); ?>/_images/amex_lockup.png" width="175" alt="American Express Proud Partner of Burn This" class="amex-img"></div>
+<?php include(locate_template('partials/nav-menu.php')); ?>
+<div class="global-wrapper">
+  <div class="header-section">
+    <div class="w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none" style=" position: absolute; bottom: 0; width: 100%; height: 10vw;">
+  <polygon fill="#000000" points="0 100,0 0,100 100, 0 100">
+  </polygon></svg></div>
+  </div>
+  <div id="about" class="home-section-1">
+    <div class="about-content-holder">
+      <h1 class="section-title">about<br> <span class="title-slash">/</span> the show<span class="gold"></span></h1>
+      <div class="about-text">Emmy and Golden Globe nominee <span>Adam Driver</span> (<em>Star Wars</em>, <em>BlacKkKlansmen, </em>“Girls”) and Golden Globe winner <span>Keri Russell</span> (“The Americans,” <em>Waitress</em>, “Felicity”) star in the acclaimed drama by Pulitzer Prize winner <span>Lanford Wilson</span>.<br><br>When a mysterious death brings together two unlikely strangers, their explosive connection spark a chemistry too fiery to ignore. Directed by Tony winner Michael<span class="text-span-4"> </span>Mayer (<em>Spring Awakening</em>, <em>Hedwig and the Angry Inch</em>), <em>BURN THIS</em> is a smoldering story of love and raw attraction by one of the most vital playwrights of the modern era.<br></div>
     </div>
   </div>
+</div>
+
 
 <?php get_footer(); ?>
