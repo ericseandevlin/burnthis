@@ -14,7 +14,7 @@
 .body {
   height: 100%;
   min-height: 100%;
-  font-family: Lato, sans-serif;
+  font-family: Helveticaneuehv;
 }
 
 .global-navbar {
@@ -43,18 +43,9 @@
   float: left;
 }
 
-.nav-links.nav-menu {
-  -webkit-box-ordinal-group: 0;
-  -webkit-order: -1;
-  -ms-flex-order: -1;
-  order: -1;
-}
-
-.home-section-1 {
+.about-section {
   position: relative;
   min-height: 400px;
-  padding-top: 40px;
-  padding-bottom: 75px;
   background-color: #000;
 }
 
@@ -75,13 +66,14 @@
   background-attachment: fixed;
 }
 
-.home-section.section-6 {
-  margin-bottom: -20px;
+.home-section.section-8 {
+  height: 20vh;
+  background-image: none;
 }
 
 .global-nav-tickets {
   overflow: hidden;
-  width: 260px;
+  width: 268px;
   height: 75px;
   float: right;
   -webkit-box-ordinal-group: 2;
@@ -101,7 +93,6 @@
 .html-embed-2 {
   position: relative;
   height: 100%;
-  border-bottom: 0px none transparent;
 }
 
 .html-embed-2:hover {
@@ -110,10 +101,13 @@
 
 .get-tickets-text {
   position: relative;
-  top: -60px;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
   display: block;
-  margin-top: 18px;
-  margin-left: 60px;
+  margin-top: -48px;
+  margin-left: 65px;
   font-family: 'Lulo Clean Bold';
   color: #fff;
   font-size: 1.4em;
@@ -122,7 +116,7 @@
 }
 
 .menu-item {
-  padding: 20px 20px 25px;
+  padding: 18px 20px 25px;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
@@ -134,16 +128,12 @@
   text-decoration: none;
 }
 
-.about-columns {
-  padding-bottom: 30px;
-}
-
 .about-text {
-  max-width: 60vw;
+  max-width: 70%;
   margin-right: auto;
   margin-bottom: 30px;
   margin-left: auto;
-  font-family: Lato, sans-serif;
+  font-family: 'Helveticaneuelt webfont';
   font-size: 1.5em;
   line-height: 1.6em;
   font-weight: 300;
@@ -151,6 +141,7 @@
 }
 
 .section-title {
+  margin-top: 0px;
   padding-bottom: 25px;
   font-family: 'Lulo Clean One';
   font-size: 5.1em;
@@ -159,40 +150,33 @@
   letter-spacing: -13px;
 }
 
-.text-span-4 {
-  font-family: 'Lulo Clean Bold';
-}
-
-.home-section-3 {
+.tickets-section {
   position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   min-height: 400px;
-  padding-top: 40px;
-  padding-bottom: 75px;
-  background-color: #000;
-}
-
-.home-section-4 {
-  position: relative;
-  height: 100vh;
-  background-color: #000;
-  background-image: url('../images/burnthis_hero_image_desktop_v2.jpg');
-  background-position: 0px 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.home-section-5 {
-  position: relative;
-  min-height: 400px;
-  padding-top: 10px;
-  padding-bottom: 70px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   background-color: #000;
 }
 
 .cast-section {
-  padding-right: 100px;
-  padding-left: 100px;
+  position: relative;
+  min-height: 400px;
+  background-color: #000;
+}
+
+.cast-content-holder {
+  max-width: 80vw;
+  margin-right: auto;
+  margin-left: auto;
   text-align: left;
 }
 
@@ -201,7 +185,6 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 90vw;
   margin-right: 0px;
   margin-left: 0px;
   -webkit-box-orient: horizontal;
@@ -242,6 +225,9 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
@@ -264,37 +250,13 @@
 }
 
 .image {
-  min-width: 250px;
   border: 1px none #000;
 }
 
-.home-section-6 {
-  position: relative;
-  height: 100vh;
-  margin-bottom: -20px;
-  padding-bottom: 0px;
-  background-color: #000;
-  background-image: url('../images/burnthis_hero_image_desktop_v2.jpg');
-  background-position: 0px 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.home-section-7 {
+.news-section {
   position: relative;
   min-height: 400px;
-  padding-bottom: 2px;
   background-color: hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
-}
-
-.tickets-column-two {
-  padding-right: 100px;
-}
-
-.tickets-column-one {
-  padding-right: 100px;
-  padding-left: 100px;
 }
 
 .global-button {
@@ -354,10 +316,8 @@
   display: -ms-flexbox;
   display: flex;
   overflow: visible;
-  width: 90vw;
   margin: 40px auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 30px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -377,38 +337,29 @@
   width: 30%;
   height: 250px;
   background-color: #000;
+  background-image: url('../images/example-bg.png');
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
-.news-section {
-  padding-right: 100px;
-  padding-bottom: 60px;
-  padding-left: 100px;
+.news-content-holder {
+  max-width: 80vw;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 20px;
 }
 
 .gold {
   color: hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
 }
 
-.home-section-8 {
-  position: relative;
-  height: 18vh;
-  background-color: #000;
-  background-image: url('../images/burnthis_hero_image_desktop_v2.jpg');
-  background-position: 0px 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.home-section-9 {
-  position: relative;
-  min-height: 400px;
-  background-color: #000;
-}
-
 .faq-section {
-  padding-right: 100px;
-  padding-left: 100px;
+  position: relative;
+  max-width: 90vw;
+  min-height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #000;
 }
 
 .social-link {
@@ -518,7 +469,7 @@
   margin-right: auto;
   margin-bottom: 30px;
   margin-left: auto;
-  font-family: Lato, sans-serif;
+  font-family: 'Helveticaneuelt webfont';
   font-size: 1.5em;
   line-height: 1.9em;
   font-weight: 300;
@@ -595,10 +546,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 90vw;
-  margin-top: 65px;
-  margin-right: 0px;
-  margin-left: 0px;
+  margin-top: 40px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -672,69 +620,6 @@
   cursor: pointer;
 }
 
-.hamburger {
-  font-size: 2em;
-  line-height: 1em;
-}
-
-.nav-tickets-holder {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 250px;
-  height: 100%;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.tickets-button-text {
-  margin-bottom: 0px;
-}
-
-.nav-tickets-button {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 10px 20px;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #ad290b;
-  -webkit-transition: background-color 200ms ease, color 200ms ease;
-  transition: background-color 200ms ease, color 200ms ease;
-  color: #fff;
-  font-size: 1em;
-  letter-spacing: 0.5px;
-  text-decoration: none;
-}
-
-.nav-tickets-button:hover {
-  background-color: #fff;
-  color: #232323;
-}
-
-.nav-tickets-button.w--open {
-  padding-left: 30px;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  color: #fff;
-}
-
 .nav-bar {
   position: fixed;
   z-index: 2000;
@@ -774,29 +659,61 @@
   background-color: #000;
 }
 
-.nav-link {
-  margin-right: 10px;
-  margin-bottom: 3px;
-  margin-left: 10px;
-  padding: 5px 2px 2px;
-  -webkit-transition: color 200ms ease;
-  transition: color 200ms ease;
-  color: #888;
-  font-size: 0.7em;
-  line-height: 1em;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.nav-link:hover {
-  color: #fff;
-}
-
-.menu-button-2 {
+.menu-button {
   display: none;
-  padding: 5px;
+}
+
+.html-embed-3 {
+  position: relative;
+  display: none;
+  height: 100%;
+  border-bottom: 0px none transparent;
+}
+
+.html-embed-3:hover {
+  border-bottom-width: 3px;
+}
+
+.black {
+  color: #000;
+}
+
+.news-overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#000), color-stop(23%, hsla(0, 0%, 62%, .39)), color-stop(45%, hsla(0, 0%, 100%, .02)));
+  background-image: linear-gradient(0deg, #000, hsla(0, 0%, 62%, .39) 23%, hsla(0, 0%, 100%, .02) 45%);
+}
+
+.news-title {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Helveticaneuemed;
+  color: #fff;
 }
 
 @media (max-width: 991px) {
@@ -804,26 +721,15 @@
     margin-left: 0px;
     background-color: #000;
   }
-  .nav-links.nav-menu {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-  .home-section-1 {
+  .about-section {
     overflow: hidden;
     min-height: 400px;
   }
   .home-section {
     background-position: 50% 50%;
+  }
+  .home-section.section-8 {
+    height: 12vh;
   }
   .menu-button {
     padding: auto 25px;
@@ -836,13 +742,11 @@
   .menu-button.w--open {
     background-color: #000;
   }
+  .global-nav-tickets {
+    width: 267px;
+  }
   .global-nav-tickets:hover {
     border-bottom-width: 2px;
-  }
-  .get-tickets-text {
-    margin-top: 20px;
-    margin-left: 75px;
-    font-size: 1.2em;
   }
   .menu-item {
     display: -webkit-box;
@@ -862,71 +766,83 @@
   .about-text {
     overflow: visible;
     width: auto;
+    max-width: 85%;
   }
   .section-title {
     overflow: visible;
     font-size: 2.7em;
     letter-spacing: -8px;
   }
-  .home-section-3 {
+  .tickets-section {
     overflow: hidden;
     min-height: 400px;
-  }
-  .home-section-4 {
-    background-position: 50% 50%;
-  }
-  .home-section-5 {
-    overflow: hidden;
-    min-height: 400px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
   .cast-section {
+    overflow: hidden;
+    min-height: 400px;
+  }
+  .cast-content-holder {
+    max-width: 90vw;
     padding-right: 10px;
     padding-left: 10px;
   }
   .cast-block-holder {
     width: auto;
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-  .cast-block {
-    width: 100%;
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-  .home-section-6 {
-    background-position: 50% 50%;
-  }
-  .home-section-7 {
-    overflow: hidden;
-    min-height: 400px;
-  }
-  .tickets-column-one {
-    padding-right: 25px;
-    padding-left: 25px;
-  }
-  .news-block-holder {
-    -webkit-box-orient: vertical;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
   }
+  .cast-block {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
   .news-section {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-  .home-section-8 {
-    background-position: 50% 50%;
-  }
-  .home-section-9 {
     overflow: hidden;
     min-height: 400px;
   }
+  .news-block-holder {
+    overflow: hidden;
+    height: 300px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .news-block {
+    width: 400px;
+    margin-bottom: 32px;
+  }
+  .news-content-holder {
+    max-width: 100vw;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
   .faq-section {
+    overflow: hidden;
+    min-height: 400px;
+  }
+  .faq-holder {
     padding-right: 0px;
     padding-left: 0px;
   }
@@ -938,14 +854,14 @@
     background-position: 50% 50%;
   }
   .creative-block {
-    width: 100%;
     margin-right: 0px;
     margin-left: 0px;
   }
   .creative-block-holder {
     width: auto;
-    margin-right: 0px;
-    margin-left: 0px;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
   }
   .nav-link-text {
     font-size: 2.1em;
@@ -1005,19 +921,6 @@
     width: 35px;
     height: 35px;
   }
-  .hamburger {
-    padding: 5px;
-    color: #fff;
-    font-size: 2.35em;
-    line-height: 1em;
-  }
-  .nav-tickets-holder {
-    width: auto;
-    padding-right: 0px;
-  }
-  .nav-tickets-button {
-    border-radius: 0px;
-  }
   .nav-bar {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1055,50 +958,93 @@
     background-color: hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
     text-align: right;
   }
-  .nav-link {
-    margin-bottom: 15px;
-    margin-left: 0px;
-    padding-right: 20px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    color: #fff;
-    font-size: 3em;
-    line-height: 1em;
-    font-weight: 700;
+  .menu-bar-1 {
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
   }
-  .nav-link:hover {
-    color: #80b8d9;
+  .menu-bar-2 {
+    width: 25px;
+    height: 2px;
+    margin-bottom: 4px;
+    background-color: #fff;
   }
-  .menu-button-2 {
+  .menu-bar-3 {
+    width: 25px;
+    height: 2px;
+    margin-bottom: 4px;
+    background-color: #fff;
+  }
+  .menu-button {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding: 15px;
-    -webkit-box-ordinal-group: 0;
-    -webkit-order: -1;
-    -ms-flex-order: -1;
-    order: -1;
+    width: 75px;
+    height: 75px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     cursor: pointer;
+  }
+  .html-embed-3 {
+    display: none;
   }
 }
 
 @media (max-width: 767px) {
+  .global-nav-tickets {
+    width: 214px;
+    height: 60px;
+    border-bottom: 1px solid hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
+  }
+  .global-nav-tickets:hover {
+    border-bottom: 1px solid hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
+  }
+  .html-embed-2 {
+    display: block;
+  }
+  .get-tickets-text {
+    margin-top: -39px;
+    margin-left: 51px;
+    font-size: 1.1em;
+  }
   .section-title {
     font-size: 2.3em;
     letter-spacing: -7px;
   }
+  .tickets-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
   .cast-block-holder {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .cast-photo {
     min-width: 150px;
-  }
-  .tickets-column-one {
-    padding-right: 25px;
-    padding-left: 25px;
   }
   .global-button {
     width: 250px;
@@ -1109,6 +1055,9 @@
   }
   .privacy-link {
     font-size: 0.5em;
+  }
+  .about-content-holder {
+    max-width: 90vw;
   }
   .creative-block-holder {
     -webkit-flex-wrap: wrap;
@@ -1130,6 +1079,7 @@
     height: 30px;
   }
   .nav-bar {
+    height: 60px;
     padding-right: 0px;
     padding-left: 0px;
   }
@@ -1140,11 +1090,8 @@
     -ms-flex-pack: end;
     justify-content: flex-end;
   }
-  .nav-link {
-    margin-bottom: 5px;
-    padding-left: 15px;
-    font-size: 2em;
-    line-height: 1em;
+  .menu-button {
+    height: 60px;
   }
 }
 
@@ -1157,6 +1104,9 @@
     margin-left: 0px;
     background-color: #000;
   }
+  .home-section.section-8 {
+    height: 10vh;
+  }
   .menu-button {
     height: 50px;
     padding-top: 10px;
@@ -1164,57 +1114,69 @@
     background-color: #000;
   }
   .global-nav-tickets {
+    width: 209px;
     height: 60px;
     float: right;
-    border-bottom: 2px solid hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
+    border-bottom: 1px solid hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
   }
   .html-embed-2 {
     height: 100%;
   }
-  .get-tickets-text {
-    margin-top: 25px;
-    margin-left: 72px;
-    font-size: 1.2em;
-  }
   .menu-item {
     padding-top: 10px;
+  }
+  .about-text {
+    max-width: 95%;
   }
   .section-title {
     padding-right: 10px;
     padding-left: 10px;
     letter-spacing: -6px;
   }
-  .cast-section {
+  .cast-content-holder {
     padding-right: 0px;
     padding-left: 0px;
+  }
+  .cast-block-holder {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
   }
   .cast-block {
     margin-right: 0px;
     margin-left: 0px;
-    padding-right: 20px;
-    padding-left: 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
   }
-  .cast-photo {
-    margin-bottom: 20px;
-    margin-left: 25px;
-  }
-  .tickets-column-two {
-    padding-right: 10px;
-  }
-  .tickets-column-one {
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-  .news-section {
+  .news-block-holder {
+    width: 100%;
+    height: 200px;
     padding-right: 0px;
     padding-left: 0px;
   }
-  .faq-section {
+  .news-block {
+    width: 250px;
+    height: 150px;
+  }
+  .news-content-holder {
+    max-width: 100vw;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .faq-holder {
     padding-right: 0px;
     padding-left: 0px;
   }
@@ -1241,9 +1203,6 @@
   .cast-bio-holder {
     margin-left: 0px;
   }
-  .creative-holder {
-    margin-left: 0px;
-  }
   .creative-block {
     margin-right: 0px;
     margin-left: 0px;
@@ -1267,12 +1226,46 @@
   }
   .nav-bar {
     height: 60px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
-  .nav-link {
-    font-size: 1.5em;
+  .menu-button {
+    padding-top: 0px;
+  }
+  .html-embed-3 {
+    height: 100%;
+  }
+  .tickets-text {
+    max-width: 90vw;
   }
 }
 
+@font-face {
+  font-family: 'Helveticaneuebd webfont';
+  src: url('../fonts/helveticaneuebd-webfont.woff2') format('woff2'), url('../fonts/helveticaneuebd-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helveticaneuehv webfont';
+  src: url('../fonts/helveticaneuehv-webfont.woff2') format('woff2'), url('../fonts/helveticaneuehv-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helveticaneuemed webfont';
+  src: url('../fonts/helveticaneuemed-webfont.woff2') format('woff2'), url('../fonts/helveticaneuemed-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helveticaneuelt webfont';
+  src: url('../fonts/helveticaneuelt-webfont.woff2') format('woff2'), url('../fonts/helveticaneuelt-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
 @font-face {
   font-family: 'Lulo Clean One';
   src: url('../fonts/38169C_1_0.ttf') format('truetype');
@@ -1283,5 +1276,29 @@
   font-family: 'Lulo Clean Bold';
   src: url('../fonts/38169C_2_0.ttf') format('truetype');
   font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helveticaneuebd';
+  src: url('../fonts/HelveticaNeueBd.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helveticaneuemed';
+  src: url('../fonts/HelveticaNeueMed.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helveticaneuelt';
+  src: url('../fonts/HelveticaNeueLt.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helveticaneuehv';
+  src: url('../fonts/HelveticaNeueHv.ttf') format('truetype');
+  font-weight: 400;
   font-style: normal;
 }

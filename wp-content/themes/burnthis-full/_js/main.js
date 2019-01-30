@@ -51,7 +51,7 @@ $(function() {
     }
   }
 
-burnthis.modalOpen('.menu-button-2', '.nav-menu-bg');
+burnthis.modalOpen('.menu-button', '.nav-menu-bg');
 burnthis.closeNavModal();
 
 

@@ -1,7 +1,9 @@
 <div class="nav-bar w-clearfix">
-  <div class="menu-button-2">
-    <div class="hamburger w-icon-nav-menu"></div>
-  </div>
+   <div class="menu-button">
+     <div class="menu-bar-3"></div>
+     <div class="menu-bar-2"></div>
+     <div class="menu-bar-1"></div>
+   </div>
   <div class="nav-menu-bg">
     <div class="nav-menu">
       <div class="menu-modal-close"><img src="https://uploads-ssl.webflow.com/5b1afd821a995e028afda7ee/5b1afd821a995e764efda817_x_modal.svg" alt="" class="x-close"></div>
@@ -34,10 +36,14 @@
     </div>
   </div>
   <div class="global-nav-tickets">
-    <div class="html-embed-2 w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 12 100 100" preserveaspectratio="none" style=" position: absolute;
-left: 0;">
-  <polygon fill="black" points="0 0, 0 100, 0 40, 30 0">
+     <div class="html-embed-3 w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 12 100 100" preserveaspectratio="none" style=" position: absolute;
+ left: 0;">
+   <polygon fill="black" points="0 0, 0 100, 0 40, 30 0">
 </polygon></svg></div>
-    <div class="get-tickets-text">GET TICKETS</div>
-  </div>
-</div>
+     <div class="html-embed-2 w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 12 100 100" preserveaspectratio="none" style=" position: absolute;
+ left: 0;">
+   <polygon fill="black" points="0 0, 0 100, 0 40, 30 0">
+</polygon></svg></div>
+     <div class="get-tickets-text">GET TICKETS</div>
+   </div>
+ </div>
