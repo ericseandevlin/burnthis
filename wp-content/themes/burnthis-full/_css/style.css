@@ -1,4 +1,11 @@
 /* MENU */
+
+@media (max-width: 991px) {
+.nav-menu-bg {
+  display: none;
+  }
+}
+
   /* Responsive fixes */
 
   @media (min-width: 992px) and (max-width: 1200px) {
