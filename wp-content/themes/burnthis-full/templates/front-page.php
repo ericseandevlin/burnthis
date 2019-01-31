@@ -69,28 +69,6 @@
 
     <?php include(locate_template('partials/section-news.php')); ?>
 
-    <div id="news" class="news-section">
-      <div class="news-content-holder">
-        <h1 class="section-title">news<br>‍<span class="black">/</span><span> </span>updates</h1>
-        <div class="news-block-holder">
-          <a href="#" class="news-block w-inline-block">
-            <div class="news-overlay">
-              <div class="news-title">Lorem ipsum dolor sit amet blah blah lorem ipsum Lorem ipsum dolor sit amet blah blah lorem ipsum</div>
-            </div>
-          </a>
-          <a href="#" class="news-block w-inline-block">
-            <div class="news-overlay">
-              <div class="news-title">Lorem ipsum dolor sit amet blah blah lorem ipsum Lorem ipsum dolor sit amet blah blah lorem ipsum</div>
-            </div>
-          </a>
-          <a href="#" class="news-block w-inline-block">
-            <div class="news-overlay">
-              <div class="news-title">Lorem ipsum dolor sit amet blah blah lorem ipsum Lorem ipsum dolor sit amet blah blah lorem ipsum</div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
     <div class="home-section section-8">
       <div class="html-embed w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none" style=" position: absolute;
   top: 0;

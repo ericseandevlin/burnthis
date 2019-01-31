@@ -4,6 +4,8 @@ $newsItems = $news['news_item'];
  ?>
 
 <section id="news" class="news-section">
+  <div class="news-content-holder">
+  <h1 class="section-title">news<br>‍<span class="black">/</span><span> </span>updates</h1>
 
   <div class="w-container">
 
@@ -66,4 +68,5 @@ $newsItems = $news['news_item'];
           </div>
     </div>
   </div>
+</div>
 </section>
