@@ -65,7 +65,7 @@
   bottom: 0;
   width: 100%;
   height: 10vw;">
-    <polygon fill="#c8a402" points="0 100,0 0,100 100,0 100">
+    <polygon fill="#dca826" points="0 100,0 0,100 100,0 100">
     </polygon></svg></div>
     </div>
 
@@ -76,7 +76,7 @@
   top: 0;
   width: 100%;
   height: 10vw;">
-    <polygon fill="#c8a402" points="0 0, 0 0, 100 0 ,100 100">
+    <polygon fill="#dca826" points="0 0, 0 0, 100 0 ,100 100">
     </polygon></svg></div>
       <div class="w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none" style=" position: absolute;
   bottom: 0;

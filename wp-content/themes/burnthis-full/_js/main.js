@@ -101,7 +101,7 @@ $(function() {
 
 $(document).ready(function() {
   var swiper = new Swiper('#news-swiper', {
-    slidesPerView: 3,
+    slidesPerView: 2,
     spaceBetween: 20,
     slidesPerGroup: 1,
     loop: false,
@@ -118,7 +118,7 @@ $(document).ready(function() {
     breakpoints: {
 
       1180: {
-        slidesPerView: 3
+        slidesPerView: 2
       },
       // when window width is <= 1020px
       1020: {
