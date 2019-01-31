@@ -1,12 +1,12 @@
 <?php
 $news = get_field('home_slide_news');
-$newsItems = $news['news_items'];
+$newsItems = $news['news_item'];
  ?>
 
 <section id="news" class="news-section">
 
   <div class="w-container">
-    <h1 class="header-1 centered"><?= $news['news_title']; ?></h1>
+    <h1 class="header-1 centered"><?= $news['news_section_title']; ?></h1>
 
     <div class="news-swiper">
       <div id="news-swiper" class="swiper-container">
@@ -18,8 +18,8 @@ $newsItems = $news['news_items'];
          <?php setup_postdata($post); ?>
 
          <div class="swiper-slide">
-             <?php if( have_rows('news_items') ): ?>
-               <?php while( have_rows('news_items') ): the_row();
+             <?php if( have_rows('news_item') ): ?>
+               <?php while( have_rows('news_item') ): the_row();
 
               // vars
               $image = get_sub_field('news_item_image');
