@@ -4,9 +4,9 @@ $newsItems = $news['news_item'];
  ?>
 
 <section id="news" class="news-section">
+  <div class="news-content-holder">
 
-  <div class="w-container">
-    <h1 class="header-1 centered"><?= $news['news_section_title']; ?></h1>
+  <h1 class="section-title"><?= $news['news_section_title']; ?></h1>
 
     <div class="news-swiper">
       <div id="news-swiper" class="swiper-container">
@@ -17,7 +17,7 @@ $newsItems = $news['news_item'];
         <?php foreach( $newsItems as $post): ?>
          <?php setup_postdata($post); ?>
 
-         <div class="swiper-slide">
+
              <?php if( have_rows('news_item') ): ?>
                <?php while( have_rows('news_item') ): the_row();
 
@@ -27,14 +27,13 @@ $newsItems = $news['news_item'];
 
               ?>
               <?php if( $image ): ?>
-                    <a href="<?php echo $link; ?>" target="_blank">
-                      <div class="swiper-content">
-                        <div class="news-image-container" style="background-image: url('<?php echo $image['url']; ?>')">
-
-                        </div>
-                        <div class="swiper-link"><?php the_title(); ?></div>
+                         <div class="swiper-slide news-block w-inline-block" style="background-image: url('<?php echo $image['url']; ?>')">
+                    <a href="<?php echo $link; ?>" target="_blank" >
+                      <div class="news-overlay">
+                        <div class="news-title"><?php the_title(); ?></div>
                       </div>
                     </a>
+                  </div>
 
               <?php endif; ?>
 
@@ -42,7 +41,6 @@ $newsItems = $news['news_item'];
         <?php endif; ?>
 
 
-        </div>
         <?php endforeach; ?>
       </div>
 
