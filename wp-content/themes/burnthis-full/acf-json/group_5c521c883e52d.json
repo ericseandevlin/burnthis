@@ -49,8 +49,12 @@
                         "class": "",
                         "id": ""
                     },
-                    "post_type": "",
-                    "taxonomy": "",
+                    "post_type": [
+                        "news"
+                    ],
+                    "taxonomy": [
+                        "category:read"
+                    ],
                     "filters": [
                         "search"
                     ],
@@ -79,5 +83,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1548885294
+    "modified": 1548954365
 }

@@ -30,9 +30,7 @@ $newsItems = $news['news_items'];
                     <a href="<?php echo $link; ?>" target="_blank">
                       <div class="swiper-content">
                         <div class="news-image-container" style="background-image: url('<?php echo $image['url']; ?>')">
-                          <div class="news-category">
-                            <?php foreach((get_the_category()) as $category) { echo $category->cat_name . ' '; } ?>
-                          </div>
+
                         </div>
                         <div class="swiper-link"><?php the_title(); ?></div>
                       </div>

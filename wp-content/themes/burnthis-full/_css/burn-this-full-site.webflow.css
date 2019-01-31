@@ -86,8 +86,8 @@ a {
   -ms-flex-order: 1;
   order: 1;
   background-color: hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
-  -webkit-transition: all 200ms ease;
-  transition: all 200ms ease;
+  -webkit-transition: all 300ms cubic-bezier(.445, .05, .55, .95);
+  transition: all 300ms cubic-bezier(.445, .05, .55, .95);
   cursor: pointer;
 }
 
@@ -291,8 +291,8 @@ a {
   -webkit-transform: skew(-23deg, 0deg);
   -ms-transform: skew(-23deg, 0deg);
   transform: skew(-23deg, 0deg);
-  -webkit-transition: all 200ms ease;
-  transition: all 200ms ease;
+  -webkit-transition: all 300ms cubic-bezier(.445, .05, .55, .95);
+  transition: all 300ms cubic-bezier(.445, .05, .55, .95);
   text-decoration: none;
 }
 

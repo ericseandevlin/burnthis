@@ -46,13 +46,13 @@ function burnthis_enqueue_scripts()
 
     wp_register_script('jquery-3.3.1', get_template_directory_uri() . '/_js/jquery-3.3.1.min.js', array(), '1.0.0', true);
     // wp_register_script('mc-validate', get_template_directory_uri() . '/_js/mc-validate.js', array(), getCacheBust(), true);
-    // wp_register_script('swiper', get_template_directory_uri() . '/_js/swiper.min.js', array('jquery-3.3.1'), '1.0.0', true);
+    wp_register_script('swiper', get_template_directory_uri() . '/_js/swiper.min.js', array('jquery-3.3.1'), '1.0.0', true);
     wp_register_script('main', get_template_directory_uri() . '/_js/main.js', array(), getCacheBust(), true);
     wp_register_script('burnthis', get_template_directory_uri() . '/_js/burnthis.js', array(), getCacheBust(), true);
 
     wp_enqueue_script('jquery-3.3.1');
     // wp_enqueue_script('mc-validate');
-    // wp_enqueue_script('swiper');
+    wp_enqueue_script('swiper');
     wp_enqueue_script('main');
     wp_enqueue_script('burnthis');
 }
@@ -207,7 +207,7 @@ function create_news_cpt() {
 	);
 	$args = array(
 		'label' => __( 'News', 'textdomain' ),
-		'description' => __( 'The Cher Show News', 'textdomain' ),
+		'description' => __( 'Burn This News', 'textdomain' ),
 		'labels' => $labels,
 		'menu_icon' => 'dashicons-text',
 		'supports' => array('title', 'editor', 'excerpt', 'thumbnail', 'custom-fields', ),
@@ -229,7 +229,7 @@ function create_news_cpt() {
 	register_post_type( 'News', $args );
 
 }
-add_action( 'init', 'create_News_cpt', 0 );
+add_action( 'init', 'create_news_cpt', 0 );
 
 
 

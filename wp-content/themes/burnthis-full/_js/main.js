@@ -49,12 +49,44 @@ $(function() {
         }
       });
     }
-  }
+}
 
 burnthis.modalOpen('.menu-button', '.nav-menu-bg');
 burnthis.closeNavModal();
 
 
+$(document).ready(function() {
+  var swiper = new Swiper('#news-swiper', {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    slidesPerGroup: 1,
+    loop: false,
+    loopFillGroupWithBlank: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    breakpoints: {
+
+      1180: {
+        slidesPerView: 3
+      },
+      // when window width is <= 480px
+      1020: {
+        slidesPerView: 2
+      },
+      // when window width is <= 640px
+      640: {
+        slidesPerView: 1
+      }
+    }
+  });
+});
   // HOME PAGE FUNCTIONS
   if ($('body.home').length) {
     burnthis.login();

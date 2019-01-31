@@ -1,6 +1,6 @@
 {
     "key": "group_5c521c2473e7a",
-    "title": "News Items",
+    "title": "News",
     "fields": [
         {
             "key": "field_5c521e64d9dec",
@@ -77,5 +77,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1548885663
+    "modified": 1548953666
 }
