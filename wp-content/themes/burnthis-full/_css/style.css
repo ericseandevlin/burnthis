@@ -6,18 +6,39 @@
     padding: 22px 5px 25px;
     }
   }
+
+  .w--current > .nav-link-text {
+    color: hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
+  }
+
+.get-tickets-text {
+  margin-left: 55px;
+}
+
+@media (max-width: 767px) {
+.get-tickets-text {
+      margin-left: 45px;
+    }
+}
+
+
+.home-section.section-8 {
+  height: 200px;
+}
+
 /* NEWS SECTION */
 
 .news-section .w-container {
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 991px) {
   .news-section .w-container {
     max-width: 728px;
     margin: 0 auto;
-
   }
 }
 
