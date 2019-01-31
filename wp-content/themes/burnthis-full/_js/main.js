@@ -41,7 +41,7 @@ $(function() {
           return;
 
         } else {
-          $(modal).fadeOut(200).promise().done(function() {
+          $(modal).promise().done(function() {
             $(this).removeAttr("style");
             $('.main-content, .footer').fadeIn(200);
             // $('.main-content, .footer').fadeTo(200, 1);

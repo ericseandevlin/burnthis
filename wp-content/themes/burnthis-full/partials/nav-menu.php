@@ -16,19 +16,19 @@
           <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0DEG) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0DEG) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0DEG) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0DEG) rotateY(0) rotateZ(0) skew(0, 0);transform-style:preserve-3d;opacity:0" class="nav-link-bar"></div>
           <div class="nav-link-text">about</div>
         </a>
-        <a data-w-id="00dddc27-ac37-1adf-cd66-858a50d0bd49" href="#" class="menu-item w-inline-block">
+        <a data-w-id="00dddc27-ac37-1adf-cd66-858a50d0bd49" href="#tickets" class="menu-item w-inline-block">
           <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0DEG) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0DEG) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0DEG) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0DEG) rotateY(0) rotateZ(0) skew(0, 0);transform-style:preserve-3d;opacity:0" class="nav-link-bar"></div>
           <div class="nav-link-text">tickets</div>
         </a>
-        <a data-w-id="4f34dd48-ce5f-a1a5-f95b-3bc1c0f4e93c" href="#" class="menu-item w-inline-block">
+        <a data-w-id="4f34dd48-ce5f-a1a5-f95b-3bc1c0f4e93c" href="#cast" class="menu-item w-inline-block">
           <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0DEG) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0DEG) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0DEG) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0DEG) rotateY(0) rotateZ(0) skew(0, 0);transform-style:preserve-3d;opacity:0" class="nav-link-bar"></div>
           <div class="nav-link-text">cast &amp; creative</div>
         </a>
-        <a data-w-id="6d67a749-7c43-16b4-c49f-b821676d0e64" href="#" class="menu-item w-inline-block">
+        <a data-w-id="6d67a749-7c43-16b4-c49f-b821676d0e64" href="#news" class="menu-item w-inline-block">
           <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0DEG) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0DEG) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0DEG) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0DEG) rotateY(0) rotateZ(0) skew(0, 0);transform-style:preserve-3d;opacity:0" class="nav-link-bar"></div>
           <div class="nav-link-text">news</div>
         </a>
-        <a data-w-id="89b1b360-78dc-954b-697f-47bc1c5b59f3" href="#" class="menu-item w-inline-block">
+        <a data-w-id="89b1b360-78dc-954b-697f-47bc1c5b59f3" href="#faq" class="menu-item w-inline-block">
           <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0DEG) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0DEG) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0DEG) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0DEG) rotateY(0) rotateZ(0) skew(0, 0);transform-style:preserve-3d;opacity:0" class="nav-link-bar"></div>
           <div class="nav-link-text">faq</div>
         </a>

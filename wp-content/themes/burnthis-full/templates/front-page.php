@@ -7,7 +7,7 @@
 
 <?php get_header(); ?>
 <div class="global-wrapper">
-    <div class="header-section">
+    <div id="home" class="header-section">
       <div class="w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none" style=" position: absolute;
       bottom: 0;
       width: 100%;
@@ -16,6 +16,7 @@
       </polygon></svg>
       </div>
     </div>
+
     <?php include(locate_template('partials/section-about.php')); ?>
 
     <div data-w-id="6e1af805-4ca2-9a04-367f-125ae80312ed" class="home-section section-2">
@@ -32,6 +33,8 @@
     <polygon fill="#000000" points="0 100,0 0,100 100,0 100">
 </polygon></svg></div>
     </div>
+
+
     <?php include(locate_template('partials/section-tickets.php')); ?>
 
 
@@ -83,7 +86,9 @@
     <polygon fill="#000000" points="0 100,0 0,100 100,0 100">
 </polygon></svg></div>
     </div>
-    <div id="tickets" class="faq-section">
+
+
+    <div id="faq" class="faq-section">
       <div class="faq-holder">
         <div class="section-title"><span class="gold">/</span> FAQ<br></div>
       </div>
