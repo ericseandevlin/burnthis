@@ -1,4 +1,4 @@
-<div class="nav-bar w-clearfix">
+<nav class="nav-bar w-clearfix">
    <div class="menu-button">
      <div class="menu-bar-3"></div>
      <div class="menu-bar-2"></div>
@@ -46,4 +46,4 @@
 </polygon></svg></div>
      <div class="get-tickets-text">GET TICKETS</div>
    </div>
- </div>
+ </nav>

@@ -706,8 +706,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   padding-right: 15px;
-  padding-bottom: 10px;
-  padding-left: 15px;
+  padding-bottom: 17px;
+  padding-left: 19px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -723,6 +723,9 @@ a {
   align-items: center;
   font-family: Helveticaneuemed;
   color: #fff;
+  font-size: 1em;
+  line-height: 1.4em;
+  text-align: left;
 }
 
 .email-wrapper {

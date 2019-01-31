@@ -1,7 +1,7 @@
 /* MENU */
 
   .w--current > .nav-link-text {
-    color: hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
+    color: #dca826;
   }
 
 @media (max-width: 991px) {
