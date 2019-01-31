@@ -6,7 +6,6 @@
  ?>
 
 <?php get_header(); ?>
-<div class="global-wrapper">
     <div id="about" class="cast-page-holder">
       <div class="cast-page-content">
         <a href="#" class="link-block w-inline-block">
@@ -25,5 +24,4 @@
         </a>
       </div>
     </div>
-  </div>
 <?php get_footer(); ?>

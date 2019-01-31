@@ -1,3 +1,5 @@
+</div>
+
 <div class="global-footer">
     <div class="footer-wrapper">
       <div class="social-wrapper"><a href="#" class="social-link w-inline-block"><img src="https://uploads-ssl.webflow.com/5bf4362178a39d44a21861da/5bf445d82de21ff0cb884bbb_icon_fb.svg" height="35" alt="Burn This Broadway Facebook" width="34.5" class="fb-img"></a><a href="#" class="social-link w-inline-block"><img src="https://uploads-ssl.webflow.com/5bf4362178a39d44a21861da/5bf445d84414ed244739cbc2_icon_tw.svg" height="28" alt="Burn This Broadway Twitter" width="91.5" class="twitter-img"></a><a href="#" class="social-link w-inline-block"><img src="https://uploads-ssl.webflow.com/5bf4362178a39d44a21861da/5bf445d89f58cfa498616287_icon_ig.svg" height="35" alt="Burn This Broadway Instagram" width="75" class="insta-img"></a></div>

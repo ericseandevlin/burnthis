@@ -1,7 +1,12 @@
+/* MENU */
+  /* Responsive fixes */
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .menu-item {
+    padding: 22px 5px 25px;
+    }
+  }
 /* NEWS SECTION */
-
-/* News Swiper */
-
 
 .news-section .w-container {
     max-width: 1200px;

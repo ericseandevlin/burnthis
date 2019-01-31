@@ -6,7 +6,6 @@
  ?>
 
 <?php get_header(); ?>
-<div class="global-wrapper">
     <div id="home" class="header-section">
       <div class="w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none" style=" position: absolute;
       bottom: 0;
@@ -25,13 +24,13 @@
   width: 100%;
   height: 10vw;">
     <polygon fill="#000000" points="0 0, 0 0, 100 0 ,100 100">
-</polygon></svg></div>
+    </polygon></svg></div>
       <div class="w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none" style=" position: absolute;
   bottom: 0;
   width: 100%;
   height: 10vw;">
     <polygon fill="#000000" points="0 100,0 0,100 100,0 100">
-</polygon></svg></div>
+    </polygon></svg></div>
     </div>
 
 
@@ -44,13 +43,13 @@
   width: 100%;
   height: 10vw;">
     <polygon fill="#000000" points="0 0, 0 0, 100 0 ,100 100">
-</polygon></svg></div>
+    </polygon></svg></div>
       <div class="w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none" style=" position: absolute;
   bottom: 0;
   width: 100%;
   height: 10vw;">
     <polygon fill="#000000" points="0 100,0 0,100 100,0 100">
-</polygon></svg></div>
+    </polygon></svg></div>
     </div>
 
     <?php include(locate_template('partials/section-cast.php')); ?>
@@ -61,13 +60,13 @@
   width: 100%;
   height: 10vw;">
     <polygon fill="#000000" points="0 0, 0 0, 100 0 ,100 100">
-</polygon></svg></div>
+    </polygon></svg></div>
       <div class="w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none" style=" position: absolute;
   bottom: 0;
   width: 100%;
   height: 10vw;">
     <polygon fill="#c8a402" points="0 100,0 0,100 100,0 100">
-</polygon></svg></div>
+    </polygon></svg></div>
     </div>
 
     <?php include(locate_template('partials/section-news.php')); ?>
@@ -78,21 +77,15 @@
   width: 100%;
   height: 10vw;">
     <polygon fill="#c8a402" points="0 0, 0 0, 100 0 ,100 100">
-</polygon></svg></div>
+    </polygon></svg></div>
       <div class="w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none" style=" position: absolute;
   bottom: 0;
   width: 100%;
   height: 10vw;">
     <polygon fill="#000000" points="0 100,0 0,100 100,0 100">
-</polygon></svg></div>
+    </polygon></svg></div>
     </div>
 
 
-    <div id="faq" class="faq-section">
-      <div class="faq-holder">
-        <div class="section-title"><span class="gold">/</span> FAQ<br></div>
-      </div>
-    </div>
-  </div>
 
 <?php get_footer(); ?>
