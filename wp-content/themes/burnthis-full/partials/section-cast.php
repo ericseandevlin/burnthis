@@ -31,13 +31,12 @@
                 echo '<div class="cast-block-holder">';
               }
             ?>
-                  <a href="<?php echo get_permalink(); ?>">
+            <!-- The actual cast item -->
+            <a href="<?php echo get_permalink(); ?>" class="cast-photo w-inline-block">
                 <div class="cast-block">
-                <div class="cast-image-holder">
-
-                    <?php the_post_thumbnail( 'thumbnail', array( 'class' => 'cast-image  cast-image-hover', 'alt' => 'Image of cast member ' . get_the_title()) ); ?>
-                </div>
-
+                  <div class="cast-image-holder">
+                      <?php the_post_thumbnail( 'thumbnail', array( 'class' => 'cast-image  cast-image-hover', 'alt' => 'Image of cast member ' . get_the_title()) ); ?>
+                  </div>
                 <h3 class="cast-name"><?php the_title(); ?></h3>
                 <h4 class="cast-role"><?php the_field('role'); ?></h4>
               </div>
@@ -74,7 +73,13 @@
               }
             ?>
 
-              <?php get_template_part('partials/loop-content/member-creative'); ?>
+            <div class="w-col w-col-4">
+              <div class="creative-column" data-trigger="#modal-<?= get_the_id(); ?>" data-izimodal-open="#modal-<?= get_the_id(); ?>">
+                <p class="creative-role"><?php the_field('role'); ?></p>
+                <p class="creative-name"><?php the_title(); ?></p>
+              </div>
+            </div>
+            <?php get_template_part('partials/modals/modal', 'cast') ?>
 
               <?php if( $creative_row_counter % 4 == 0 ) {
                 echo '</div>'; }?>

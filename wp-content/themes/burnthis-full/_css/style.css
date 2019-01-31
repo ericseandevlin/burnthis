@@ -26,9 +26,13 @@
   height: 200px;
 }
 
+/* CAST SECTION */
+.cast-image {
+  height: 300px;
+  width: 200px;
+}
+
 /* NEWS SECTION */
-
-
 .news-section .w-container {
     max-width: 1200px;
     margin: 0 auto;

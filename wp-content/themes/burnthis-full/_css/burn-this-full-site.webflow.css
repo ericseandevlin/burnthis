@@ -232,10 +232,10 @@ a {
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   text-decoration: none;
 }
 
@@ -917,6 +917,14 @@ a {
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
     justify-content: flex-end;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    -webkit-transition: all 300ms cubic-bezier(.445, .05, .55, .95);
+    transition: all 300ms cubic-bezier(.445, .05, .55, .95);
+  }
+  .menu-item:hover {
+    color: #000;
   }
   .icon {
     color: #fff;
@@ -1079,8 +1087,8 @@ a {
     align-items: flex-end;
   }
   .menu-modal-close {
-    left: 13px;
-    top: 13px;
+    left: 8px;
+    top: 8px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1105,7 +1113,10 @@ a {
     right: 0px;
     bottom: 0px;
     z-index: 1000;
-    display: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     width: 100%;
     height: auto;
     max-width: none;
@@ -1317,6 +1328,7 @@ a {
   }
   .menu-item {
     padding-top: 10px;
+    padding-left: 0px;
   }
   .about-text {
     max-width: 95%;
