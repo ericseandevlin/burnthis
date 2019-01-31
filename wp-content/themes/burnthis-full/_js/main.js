@@ -76,7 +76,7 @@ $(document).ready(function() {
       1180: {
         slidesPerView: 3
       },
-      // when window width is <= 480px
+      // when window width is <= 1020px
       1020: {
         slidesPerView: 2
       },

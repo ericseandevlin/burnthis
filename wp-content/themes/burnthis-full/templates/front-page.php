@@ -69,7 +69,7 @@
 
     <?php include(locate_template('partials/section-news.php')); ?>
 
-    <!-- <div id="news" class="news-section">
+    <div id="news" class="news-section">
       <div class="news-content-holder">
         <h1 class="section-title">news<br>‍<span class="black">/</span><span> </span>updates</h1>
         <div class="news-block-holder">
@@ -90,7 +90,7 @@
           </a>
         </div>
       </div>
-    </div> -->
+    </div>
     <div class="home-section section-8">
       <div class="html-embed w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none" style=" position: absolute;
   top: 0;

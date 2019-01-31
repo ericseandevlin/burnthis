@@ -4,9 +4,8 @@ $newsItems = $news['news_item'];
  ?>
 
 <section id="news" class="news-section">
-  <div class="news-content-holder">
 
-  <h1 class="section-title"><?= $news['news_section_title']; ?></h1>
+  <div class="w-container">
 
     <div class="news-swiper">
       <div id="news-swiper" class="swiper-container">
@@ -17,7 +16,7 @@ $newsItems = $news['news_item'];
         <?php foreach( $newsItems as $post): ?>
          <?php setup_postdata($post); ?>
 
-
+         <div class="swiper-slide">
              <?php if( have_rows('news_item') ): ?>
                <?php while( have_rows('news_item') ): the_row();
 
@@ -27,13 +26,15 @@ $newsItems = $news['news_item'];
 
               ?>
               <?php if( $image ): ?>
-                         <div class="swiper-slide news-block w-inline-block" style="background-image: url('<?php echo $image['url']; ?>')">
-                    <a href="<?php echo $link; ?>" target="_blank" >
-                      <div class="news-overlay">
-                        <div class="news-title"><?php the_title(); ?></div>
+                    <a href="<?php echo $link; ?>" target="_blank">
+                      <div class="swiper-content">
+                        <div class="news-image-container" style="background-image: url('<?php echo $image['url']; ?>')">
+                          <div class="news-overlay">
+                            <div class="news-title"><?php the_title(); ?></div>
+                          </div>
+                        </div>
                       </div>
                     </a>
-                  </div>
 
               <?php endif; ?>
 
@@ -41,6 +42,7 @@ $newsItems = $news['news_item'];
         <?php endif; ?>
 
 
+        </div>
         <?php endforeach; ?>
       </div>
 
