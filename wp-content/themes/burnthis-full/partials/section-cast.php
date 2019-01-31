@@ -31,17 +31,18 @@
                 echo '<div class="cast-block-holder">';
               }
             ?>
-
+                  <a href="<?php echo get_permalink(); ?>">
                 <div class="cast-block">
                 <div class="cast-image-holder">
 
                     <?php the_post_thumbnail( 'thumbnail', array( 'class' => 'cast-image  cast-image-hover', 'alt' => 'Image of cast member ' . get_the_title()) ); ?>
-
                 </div>
 
                 <h3 class="cast-name"><?php the_title(); ?></h3>
                 <h4 class="cast-role"><?php the_field('role'); ?></h4>
               </div>
+            </a>
+
             <?php if( $cast_row_counter % 6 == 0 || $counter == ($length - 1) ){  echo '</div>';
             }
               $counter++;
@@ -53,10 +54,7 @@
         <?php endif; ?>
       </div>
 
-    </div>
-    <div class="container w-container creative-part">
-
-      <div class="cast-spacer"></div>
+      <div class="creative-block-holder">
 
       <?php // CREATIVE LOOP ?>
       <?php if( $creative_members ): ?>
@@ -71,14 +69,14 @@
 
             <?php
               $creative_row_counter++;
-              if( $creative_row_counter == 1 || $creative_row_counter % 3 == 1 ) {
-                echo '<div class="creative-row w-row">';
+              if( $creative_row_counter == 1 || $creative_row_counter % 4 == 1 ) {
+                echo '<div class="creative-block-holder">';
               }
             ?>
 
               <?php get_template_part('partials/loop-content/member-creative'); ?>
 
-              <?php if( $creative_row_counter % 3 == 0 ) {
+              <?php if( $creative_row_counter % 4 == 0 ) {
                 echo '</div>'; }?>
 
               <?php endif; ?>
@@ -89,4 +87,5 @@
       </div>
 
   </div>
+</div>
 </div>
