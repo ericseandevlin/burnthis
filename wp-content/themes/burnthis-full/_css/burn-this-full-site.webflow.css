@@ -531,6 +531,7 @@ a {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -541,7 +542,7 @@ a {
   color: #fff;
   font-size: 1.5em;
   line-height: 1.1em;
-  text-align: left;
+  text-align: center;
   letter-spacing: -2px;
   text-decoration: none;
 }
@@ -551,7 +552,7 @@ a {
   font-family: 'Lulo Clean Bold';
   color: hsla(42.85714285714285, 72.22%, 50.59%, 1.00);
   font-size: 1.1em;
-  text-align: left;
+  text-align: center;
   letter-spacing: -2px;
   text-decoration: none;
 }
@@ -1101,9 +1102,11 @@ a {
   }
   .creative-name {
     font-size: 1.2em;
+    text-align: center;
   }
   .creative-role {
     font-size: 0.9em;
+    text-align: center;
   }
   .creative-block-holder {
     width: auto;

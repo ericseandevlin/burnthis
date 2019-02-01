@@ -72,13 +72,13 @@
               }
             ?>
 
-            <div class="w-col w-col-4">
-              <div class="creative-column" data-trigger="#modal-<?= get_the_id(); ?>" data-izimodal-open="#modal-<?= get_the_id(); ?>">
-                <p class="creative-role"><?php the_field('role'); ?></p>
-                <p class="creative-name"><?php the_title(); ?></p>
+            <div class="creative-block">
+                <a href="<?php echo get_permalink(); ?>">
+                <h3 class="creative-name"><?php the_title(); ?></h3>
+                <h4 class="creative-role"><?php the_field('role'); ?></h4>
+              </a>
               </div>
             </div>
-            <?php get_template_part('partials/modals/modal', 'cast') ?>
 
               <?php if( $creative_row_counter % 4 == 0 ) {
                 echo '</div>'; }?>
