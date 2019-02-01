@@ -32,15 +32,14 @@
               }
             ?>
             <!-- The actual cast item -->
-            <a href="<?php echo get_permalink(); ?>" class="cast-photo w-inline-block">
-                <div class="cast-block">
-                  <div class="cast-image-holder">
-                      <?php the_post_thumbnail( 'thumbnail', array( 'class' => 'cast-image  cast-image-hover', 'alt' => 'Image of cast member ' . get_the_title()) ); ?>
-                  </div>
+              <div class="cast-block">
+            <a href="<?php echo get_permalink(); ?>">
+
+                <img src="<?php the_field('headshot'); ?>">
                 <h3 class="cast-name"><?php the_title(); ?></h3>
                 <h4 class="cast-role"><?php the_field('role'); ?></h4>
-              </div>
             </a>
+          </div>
 
             <?php if( $cast_row_counter % 6 == 0 || $counter == ($length - 1) ){  echo '</div>';
             }

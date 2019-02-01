@@ -43,6 +43,13 @@
   width: 200px;
 }
 
+.cast-block {
+  width: 300px;
+}
+
+.cast-block img {
+  width: 100%;
+}
 /* NEWS SECTION */
 .news-section .w-container {
     max-width: 1200px;

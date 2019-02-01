@@ -1,15 +1,42 @@
 <div id="tickets" class="tickets-section">
-  <div class="tickets-text">
-    <h1 class="section-title">get<br><span class="gold">/</span> tickets</h1>
-    <h2 class="bullet-title">online</h2>
-    <div class="ticket-text">Visit the Hudson Theatre&#x27;s website.<br></div>
-    <h2 class="bullet-title">by phone</h2>
-    <div class="ticket-text">Call (855) 801-5876<br>Monday - Friday: 10am - 6pm<br></div>
-    <h2 class="bullet-title">online</h2>
-    <div class="ticket-text">Hudson Theatre<br>141 West 44th St. New York, NY 10036<br>Monday - Saturday: 10am - 8pm<br>Sunday: 12pm - 6pm<br></div>
-    <a href="#" class="global-button w-inline-block">
-      <div class="global-button-text">GET TICKETS</div>
-    </a>
-  </div>
-  <div class="tickets-map"></div>
+  <h1 class="section-title">get<br><span class="gold">/</span> tickets</h1>
+  <div class="tickets-content-holder">
+    <div class="tickets-text">
+  <?php
+
+  // check if the flexible content field has rows of data
+  if( have_rows('tickets_section') ):
+
+       // loop through the rows of data
+      while ( have_rows('tickets_section') ) : the_row();
+
+          if( get_row_layout() == 'header_text' ): ?>
+
+          <h2 class="bullet-title"><?php the_sub_field('header_text'); ?></h2>
+
+          <?php elseif( get_row_layout() == 'body_text' ): ?>
+
+            <div class="ticket-text"><?php the_sub_field('body_text'); ?></div>
+
+          <?php endif; endwhile; else :
+
+      // no layouts found
+
+  endif;
+  ?>
+  <?php
+  if( have_rows('tickets_button') ):
+      while ( have_rows('tickets_button') ) : the_row();
+      ?>
+  <a href="<?php the_sub_field('button_url'); ?>" class="global-button w-inline-block">
+    <div class="global-button-text"><?php the_sub_field('button_text'); ?></div>
+  </a>
+
+<?php endwhile; endif; ?>
+
+    </div>
+       <div class="tickets-map">
+          <img src="<?php the_field('tickets_map'); ?>" width="504" alt="">
+        </div>
+     </div>
 </div>
