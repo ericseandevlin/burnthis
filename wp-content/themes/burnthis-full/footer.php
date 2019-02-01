@@ -15,11 +15,11 @@
           <div class="w-form-fail">
             <div>Oops! Something went wrong while submitting the form.</div>
           </div>
-        </div><a href="#" class="w-inline-block"><img src="images/Hudson-Theatre-Logo-Horizontal-Bodoni-MT_GRAY_White.svg" width="300" alt=""></a>
+        </div><a href="#" class="w-inline-block"><img src="<?= get_template_directory_uri(); ?>/_images/Hudson-Theatre-Logo-Horizontal-Bodoni-MT_GRAY_White.svg" width="300" alt=""></a>
         <div class="address-holder">141 w 44th st, new york, ny 10036</div>
         <div class="colophon-holder">2019 burn this all rights reserved | <a href="#" class="link-4">privacy policy</a><br>‍</div>
       </div>
-      <div class="amex-wrapper"><img src="images/amex_lockup.png" width="175" alt="American Express Proud Partner of Burn This" class="amex-img"></div>
+      <div class="amex-wrapper"><img src="<?= get_template_directory_uri(); ?>/_images/amex_lockup.png" width="175" alt="American Express Proud Partner of Burn This" class="amex-img"></div>
     </div>
   </div>
 
