@@ -281,3 +281,101 @@ h4.ui-accordion-header-active {
   display: -ms-flexbox;
   display: flex;
 }
+
+
+/* FORM OVERRIDES */
+.signup-wrapper {
+  margin-top: 3em;
+  margin-bottom: 0.5em;
+}
+
+.form-wrapper {
+  display: block;
+  max-width: 35em;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.signup-input {
+  width: 500px;
+  height: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: -0.35em;
+  cursor: text;
+}
+
+.signup-submit {
+  width: 115px;
+  height: 25px;
+  padding: 8px 12px;
+  border: 1px solid #c19a01;
+  background-color: #bb9b33;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: 'Lulo Clean Bold', sans-serif;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.signup-submit:hover {
+  border: 1px solid #c19a01;
+  background-color: #000;
+}
+
+.form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.signup-input {
+  padding-left: 10px;
+  padding-right: 10px;
+  letter-spacing: -.25em;
+  color: #000000;
+}
+.signup-submit {
+  height: 49px;
+}
+
+@media (min-width: 479px) and (max-width: 660px) {
+  .signup-input {
+      width: 250px;
+  }
+}
+.submit-button.send-button {
+  width: 115px;
+  height: 49px;
+  padding: 13px 17px;
+  border: 1px solid #c19a01;
+  background-color: #c19a01;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: 'Lulo Clean Bold', sans-serif;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.submit-button.send-button:hover {
+  border: 1px solid #c19a01;
+  background-color: #000;
+}
+
+.form {
+  justify-content: center;
+}
+
+.preview-line {
+  margin-top: 0;
+}
