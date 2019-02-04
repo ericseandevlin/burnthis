@@ -1,3 +1,4 @@
+
 /* MENU */
 
   .w--current > .nav-link-text {
@@ -12,6 +13,33 @@
     color: #ffffff;
   }
 }
+
+/* Fix Image URLS */
+
+.header-section {
+  background-image: url('../_images/HERO-IMAGE_DESK.jpg');
+  background-position: 50% -30%;
+  background-attachment: scroll;
+
+}
+
+.home-section {
+  background-image: url('../_images/burnthis_hero_image_desktop_v2.jpg');
+}
+
+.home-section.section-2 {
+  background-image: url('../_images/181221_RPM_BURN_THIS_S6_001.jpg');
+}
+
+.home-section.section-4 {
+  background-image: url('../_images/181221_RPM_BURN_THIS_S3_096.jpg');
+}
+
+.home-section.section-6 {
+  background-image: url('../_images/Group-341.jpg');
+
+}
+
 
   /* Responsive fixes */
 
@@ -50,6 +78,24 @@
 .cast-block img {
   width: 100%;
 }
+
+a h3.cast-name {
+  -webkit-transition: all 300ms cubic-bezier(.445, .05, .55, .95);
+  transition: all 300ms cubic-bezier(.445, .05, .55, .95);
+}
+
+a:hover h3.cast-name {
+    color: hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
+}
+
+a h3.creative-name {
+  -webkit-transition: all 300ms cubic-bezier(.445, .05, .55, .95);
+  transition: all 300ms cubic-bezier(.445, .05, .55, .95);
+}
+
+a:hover h3.creative-name {
+    color: hsla(49.0909090909091, 98.02%, 39.61%, 1.00);
+}
 /* NEWS SECTION */
 .news-section .w-container {
     max-width: 1200px;
@@ -80,9 +126,6 @@
     margin: 0 auto;
   }
 }
-
-
-
 
 .news-swiper {
   margin: 1em auto 0 auto;

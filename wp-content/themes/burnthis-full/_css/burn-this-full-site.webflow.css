@@ -67,11 +67,30 @@ a {
   position: relative;
   height: 100vh;
   background-color: #000;
-  background-image: url('../images/burnthis_hero_image_desktop_v2.jpg');
+  background-image: url('../_images/burnthis_hero_image_desktop_v2.jpg');
   background-position: 0px 0px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.home-section.section-2 {
+  background-image: url('../_images/181221_RPM_BURN_THIS_S6_001.jpg');
+  background-position: 50% 0%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home-section.section-4 {
+  background-image: url('../_images/181221_RPM_BURN_THIS_S3_096.jpg');
+  background-position: 50% 50%;
+  background-size: auto;
+}
+
+.home-section.section-6 {
+  background-image: url('../_images/Group-341.jpg');
+  background-position: 50% 0%;
+  background-size: cover;
 }
 
 .home-section.section-8 {
@@ -362,7 +381,7 @@ a {
   width: 30%;
   height: 250px;
   background-color: #000;
-  background-image: url('../images/example-bg.png');
+  background-image: url('../_images/example-bg.png');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -528,6 +547,17 @@ a {
   position: relative;
   height: 100vh;
   background-color: #fff;
+  background-image: url('../_images/HERO-IMAGE_DESK.jpg');
+  background-position: 50% -73%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.header-section.section-1 {
+  background-position: 50% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
 .creative-block {
@@ -1519,6 +1549,10 @@ a {
   .ticket-text {
     font-size: 1.3em;
     line-height: 1.6em;
+  }
+  .creative-block {
+    margin-right: 10px;
+    margin-left: 10px;
   }
   .creative-block-holder {
     -webkit-flex-wrap: wrap;

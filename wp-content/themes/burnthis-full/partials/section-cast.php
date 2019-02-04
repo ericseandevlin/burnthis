@@ -51,9 +51,7 @@
             <?php endforeach; ?>
           <?php wp_reset_postdata(); ?>
         <?php endif; ?>
-      </div>
 
-      <div class="creative-block-holder">
 
       <?php // CREATIVE LOOP ?>
       <?php if( $creative_members ): ?>
@@ -79,7 +77,6 @@
                 <h4 class="creative-role"><?php the_field('role'); ?></h4>
               </a>
               </div>
-            </div>
 
               <?php if( $creative_row_counter % 4 == 0 ) {
                 echo '</div>'; }?>
