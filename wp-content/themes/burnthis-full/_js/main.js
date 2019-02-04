@@ -99,7 +99,14 @@ faq : function() {
       $(this).find($('.bullet-circle')).addClass('open');
     });
   });
- }
+
+  // if on tickets page, remove transition and menu item highlight
+  $menuFaq = $('.menu-faq');
+  if ($menuFaq) {
+    // console.log('got menu-faq');
+    $menuFaq.removeClass('current-menu-item transition');
+  }
+},
 
 }// END BURN THIS FUNCTIONS object
 
