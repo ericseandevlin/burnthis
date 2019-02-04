@@ -1,6 +1,8 @@
 <div id="tickets" class="tickets-section">
-  <h1 class="section-title">get<br><span class="gold">/</span> tickets</h1>
   <div class="tickets-content-holder">
+      <h1 class="section-title">get<br><span class="gold">/</span> tickets</h1>
+      <div class="tickets-column-holder">
+
     <div class="tickets-text">
   <?php
 
@@ -38,5 +40,6 @@
        <div class="tickets-map">
           <img src="<?php the_field('tickets_map'); ?>" width="504" alt="">
         </div>
+      </div>
      </div>
 </div>

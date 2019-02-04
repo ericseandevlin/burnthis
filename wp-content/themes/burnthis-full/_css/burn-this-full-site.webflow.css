@@ -137,6 +137,7 @@ a {
 }
 
 .about-text {
+  width: 60%;
   margin-right: auto;
   margin-bottom: 30px;
   margin-left: auto;
@@ -165,7 +166,7 @@ a {
 .tickets-section {
   position: relative;
   display: block;
-  max-width: 80vw;
+  margin-top: 2px;
   margin-right: auto;
   margin-left: auto;
   -webkit-box-orient: horizontal;
@@ -383,11 +384,17 @@ a {
 
 .faq-section {
   position: relative;
-  max-width: 90vw;
+  width: 100vw;
   min-height: 400px;
   margin-right: auto;
   margin-left: auto;
   background-color: #000;
+}
+
+.faq-holder {
+  width: 80vw;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .social-link {
@@ -487,6 +494,8 @@ a {
 }
 
 .bullet-title {
+  margin-top: 40px;
+  margin-bottom: 20px;
   font-family: 'Lulo Clean Bold';
   color: hsla(42.85714285714285, 72.22%, 50.59%, 1.00);
   font-size: 2em;
@@ -498,6 +507,7 @@ a {
   margin-bottom: 10px;
   font-family: 'Helveticaneuelt webfont';
   font-size: 1.5em;
+  line-height: 1em;
   font-weight: 300;
   letter-spacing: normal;
 }
@@ -704,7 +714,7 @@ a {
 
 .tickets-text {
   width: 42%;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   -ms-grid-row-align: auto;
@@ -936,11 +946,14 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  width: 80vw;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -948,6 +961,10 @@ a {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
 .blue-line {
@@ -997,7 +1014,7 @@ a {
 .question {
   margin-top: 15px;
   margin-bottom: 15px;
-  padding-top: 19px;
+  padding-top: 10px;
   border-top: 1px solid hsla(0, 0%, 100%, .54);
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
@@ -1015,11 +1032,26 @@ a {
 }
 
 .answer-text {
+  margin-bottom: 12px;
   font-family: Helveticaneuelt;
   color: #fff;
   font-size: 1.2em;
   line-height: 1.5em;
   text-align: left;
+}
+
+.tickets-column-holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60vw;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 @media (max-width: 991px) {
@@ -1030,6 +1062,7 @@ a {
   .about-section {
     overflow: hidden;
     min-height: 400px;
+    margin-top: 140px;
   }
   .home-section {
     background-position: 50% 50%;
@@ -1079,15 +1112,18 @@ a {
   }
   .about-text {
     overflow: visible;
-    width: auto;
+    width: 100%;
   }
   .section-title {
     overflow: visible;
+    margin-right: 0px;
+    margin-left: 0px;
     font-size: 2.7em;
     letter-spacing: -8px;
   }
   .tickets-section {
     overflow: hidden;
+    max-width: 100vw;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -1135,6 +1171,9 @@ a {
     overflow: hidden;
     min-height: 400px;
   }
+  .global-button {
+    margin-left: 20px;
+  }
   .news-block-holder {
     overflow: hidden;
     height: 300px;
@@ -1161,10 +1200,18 @@ a {
     padding-right: 0px;
     padding-left: 0px;
   }
+  .social-wrapper {
+    margin-bottom: 20px;
+  }
   .footer-wrapper {
     max-width: 100vw;
     padding-right: 10px;
     padding-left: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
@@ -1173,6 +1220,7 @@ a {
   .ticket-text {
     overflow: visible;
     width: auto;
+    line-height: 1px;
   }
   .cast-role {
     font-size: 0.9em;
@@ -1336,7 +1384,7 @@ a {
     display: none;
   }
   .tickets-text {
-    width: 100%;
+    width: 70vw;
   }
   .email-wrapper {
     width: 45vw;
@@ -1365,9 +1413,25 @@ a {
     -ms-flex-align: start;
     align-items: flex-start;
   }
+  .tickets-content-holder {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .tickets-column-holder {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 767px) {
+  .about-section {
+    margin-top: 140px;
+  }
   .global-nav-tickets {
     width: 214px;
     height: 60px;
@@ -1472,8 +1536,15 @@ a {
   .menu-button {
     height: 60px;
   }
+  .tickets-text {
+    width: 80vw;
+    margin-left: 1px;
+  }
   .cast-page-content {
     max-width: 90vw;
+  }
+  .tickets-content-holder {
+    width: 100vw;
   }
   .blue-line.about {
     height: 1em;
@@ -1487,6 +1558,9 @@ a {
   .answer-text {
     font-weight: 300;
   }
+  .tickets-column-holder {
+    width: 80vw;
+  }
 }
 
 @media (max-width: 479px) {
@@ -1497,6 +1571,10 @@ a {
   .nav-links {
     margin-left: 0px;
     background-color: #000;
+  }
+  .about-section {
+    top: 0px;
+    margin-top: 90px;
   }
   .home-section.section-8 {
     height: 10vh;
@@ -1520,13 +1598,19 @@ a {
     padding-top: 10px;
     padding-left: 0px;
   }
-  .about-text {
-    max-width: 95%;
-  }
   .section-title {
+    margin-top: 40px;
     padding-right: 10px;
     padding-left: 10px;
     letter-spacing: -6px;
+  }
+  .tickets-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .cast-section {
+    margin-top: 40px;
+    margin-bottom: 25px;
   }
   .cast-content-holder {
     padding-right: 0px;
@@ -1598,6 +1682,13 @@ a {
   .fb-img {
     height: 20px;
   }
+  .bullet-title {
+    font-size: 1.6em;
+    line-height: 1em;
+  }
+  .ticket-text {
+    font-size: 1.2em;
+  }
   .cast-bio-holder {
     margin-left: 0px;
   }
@@ -1645,9 +1736,12 @@ a {
     height: 100%;
   }
   .tickets-text {
-    max-width: 90vw;
+    width: 100vw;
   }
   .email-wrapper {
+    width: 100vw;
+  }
+  .tickets-content-holder {
     width: 100vw;
   }
   .title-header {
@@ -1660,6 +1754,13 @@ a {
   }
   .question {
     font-weight: 700;
+  }
+  .tickets-column-holder {
+    width: 100vw;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
