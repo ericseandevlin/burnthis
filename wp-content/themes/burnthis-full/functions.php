@@ -27,18 +27,21 @@
  */
 function burnthis_enqueue_scripts()
 {
-    wp_register_style('normalize', get_template_directory_uri() . '/_css/normalize.css');
-    wp_register_style('jquery-ui', get_template_directory_uri() . '/_css/jquery-ui.min.css');
+
+
+    wp_register_style('normalize', get_template_directory_uri() . '/_css/normalize.css', array(), getCacheBust());
+    wp_register_style('jquery-ui', get_template_directory_uri() . '/_css/jquery-ui.min.css', array(), getCacheBust());
     wp_register_style('mailchimp', get_template_directory_uri() . '/_css/mailchimp.css', array(), getCacheBust());
     wp_register_style('burnthis', get_template_directory_uri() . '/_css/burn-this-full-site.webflow.css', array('normalize'), getCacheBust());
     wp_register_style('swiper', get_template_directory_uri() . '/_css/swiper.min.css', array('normalize'), getCacheBust());
     wp_register_style('style', get_template_directory_uri() . '/_css/style.css', array('normalize'), getCacheBust());
 
+
     wp_enqueue_style('normalize');
     wp_enqueue_style('jquery-ui');
     wp_enqueue_style('mailchimp');
-    wp_enqueue_style('swiper');
     wp_enqueue_style('burnthis');
+    wp_enqueue_style('swiper');
     wp_enqueue_style('style');
 
     if (is_page('privacy')) {
@@ -57,8 +60,9 @@ function burnthis_enqueue_scripts()
     wp_enqueue_script('jquery-ui');
     // wp_enqueue_script('mc-validate');
     wp_enqueue_script('swiper');
-    wp_enqueue_script('main');
     wp_enqueue_script('burnthis');
+    wp_enqueue_script('main');
+
 }
 add_action('wp_enqueue_scripts', 'burnthis_enqueue_scripts');
 
