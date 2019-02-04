@@ -4,17 +4,13 @@ $(function() {
   /* GENERAL */
   // For organization's sake, Try to write all the functions in a big theme-titled object. Then at the bottom, call all the functions by page they're needed on. See the Analytics theme main.js for example:
 
-var burnthis = {
-
-openModal : function() {
   $('.menu-button').on('click', function() {
     $('.nav-menu-bg').css("display", "flex").hide().fadeIn(200);
   });
-},
 
-closeModal : function() {
+
   function closeNavModal() {
-    const btn = '.main-modal-close',
+    const btn = '.menu-modal-close',
       modal = '.nav-menu-bg',
       modalContent = $(modal).find('.nav-menu');
 
@@ -49,7 +45,8 @@ closeModal : function() {
      };
     });
   };
-},
+
+var burnthis = {
 
 
 news : function() {
@@ -108,11 +105,9 @@ faq : function() {
 
   // HOME PAGE FUNCTIONS
   if ($('body.home').length) {
-    burnthis.openModal();
-    burnthis.closeModal();
     burnthis.news();
     burnthis.faq();
   }
-
+closeNavModal();
 
 }); // end load jquery
