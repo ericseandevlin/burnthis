@@ -150,9 +150,10 @@ a {
 
 .section-title {
   margin-top: 0px;
-  padding-bottom: 25px;
+  margin-bottom: 20px;
+  padding-bottom: 0px;
   font-family: 'Lulo Clean One';
-  font-size: 5.1em;
+  font-size: 5em;
   line-height: 1.2em;
   font-weight: 400;
   letter-spacing: -13px;
@@ -206,8 +207,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 0px;
-  margin-left: 0px;
+  margin-top: 40px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -231,8 +231,8 @@ a {
 
 .cast-block {
   display: block;
-  margin-right: 5px;
-  margin-left: 5px;
+  margin-right: 3px;
+  margin-left: 3px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -249,10 +249,10 @@ a {
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
   text-decoration: none;
 }
 
@@ -1115,11 +1115,12 @@ a {
     width: 100%;
   }
   .section-title {
-    overflow: visible;
     margin-right: 0px;
+    margin-bottom: 20px;
     margin-left: 0px;
-    font-size: 2.7em;
-    letter-spacing: -8px;
+    padding-bottom: 0px;
+    font-size: 5em;
+    line-height: 1.2em;
   }
   .tickets-section {
     overflow: hidden;
@@ -1220,7 +1221,6 @@ a {
   .ticket-text {
     overflow: visible;
     width: auto;
-    line-height: 1px;
   }
   .cast-role {
     font-size: 0.9em;
@@ -1449,8 +1449,7 @@ a {
     font-size: 1.1em;
   }
   .section-title {
-    font-size: 2.3em;
-    letter-spacing: -7px;
+    font-size: 4em;
   }
   .tickets-section {
     -webkit-box-orient: vertical;
@@ -1545,6 +1544,8 @@ a {
   }
   .tickets-content-holder {
     width: 100vw;
+    padding-right: 20px;
+    padding-left: 20px;
   }
   .blue-line.about {
     height: 1em;
@@ -1602,7 +1603,8 @@ a {
     margin-top: 40px;
     padding-right: 10px;
     padding-left: 10px;
-    letter-spacing: -6px;
+    font-size: 3em;
+    letter-spacing: -7px;
   }
   .tickets-section {
     margin-top: 40px;
@@ -1743,6 +1745,8 @@ a {
   }
   .tickets-content-holder {
     width: 100vw;
+    padding-right: 10px;
+    padding-left: 10px;
   }
   .title-header {
     font-size: 1.5em;
@@ -1756,11 +1760,11 @@ a {
     font-weight: 700;
   }
   .tickets-column-holder {
-    width: 100vw;
-    margin-right: 0px;
-    margin-left: 0px;
-    padding-right: 15px;
-    padding-left: 15px;
+    width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: auto;
+    padding-left: auto;
   }
 }
 

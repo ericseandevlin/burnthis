@@ -8,6 +8,7 @@
 
 <div id="cast" class="cast-section">
   <div class="cast-content-holder">
+    <h1 class="section-title">cast<br>   <span class="gold">/</span> creative</h1>
 
       <?php // CAST LOOP ?>
       <?php if( $cast_members ): ?>
