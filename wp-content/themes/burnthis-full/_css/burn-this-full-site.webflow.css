@@ -13,6 +13,7 @@ a {
 
 .global-footer {
   background-color: #000;
+  text-align: center;
 }
 
 .body {
@@ -50,7 +51,9 @@ a {
 
 .about-section {
   position: relative;
+  top: -90px;
   min-height: 400px;
+  margin-top: 90px;
   background-color: #000;
 }
 
@@ -152,6 +155,11 @@ a {
   line-height: 1.2em;
   font-weight: 400;
   letter-spacing: -13px;
+}
+
+.section-title.faq {
+  padding-bottom: 26px;
+  color: #fff;
 }
 
 .tickets-section {
@@ -433,6 +441,10 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
@@ -938,6 +950,78 @@ a {
   flex-wrap: wrap;
 }
 
+.blue-line {
+  position: absolute;
+  left: -5%;
+  right: -5%;
+  bottom: 0px;
+  height: 0.7em;
+  background-color: #80b8d9;
+}
+
+.blue-line.about {
+  height: 1.25em;
+}
+
+.title-header {
+  position: relative;
+  z-index: 2;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 2.5em;
+  line-height: 1em;
+  text-align: center;
+}
+
+.faq-list {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.blue-line-holder {
+  position: relative;
+  display: inline-block;
+}
+
+.faq-accordion {
+  text-align: center;
+}
+
+.title-header-holder {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.question {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 19px;
+  border-top: 1px solid hsla(0, 0%, 100%, .54);
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  font-family: Helveticaneuelt;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.question:hover {
+  color: hsla(42.85714285714285, 72.22%, 50.59%, 1.00);
+}
+
+.answer-text {
+  font-family: Helveticaneuelt;
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  text-align: left;
+}
+
 @media (max-width: 991px) {
   .nav-links {
     margin-left: 0px;
@@ -1391,6 +1475,18 @@ a {
   .cast-page-content {
     max-width: 90vw;
   }
+  .blue-line.about {
+    height: 1em;
+  }
+  .title-header {
+    font-size: 2em;
+  }
+  .faq-list {
+    width: 90%;
+  }
+  .answer-text {
+    font-weight: 300;
+  }
 }
 
 @media (max-width: 479px) {
@@ -1519,6 +1615,12 @@ a {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+  .creative-name {
+    font-size: 1.5em;
+  }
+  .creative-role {
+    font-size: 1.2em;
+  }
   .nav-link-text {
     font-size: 1.7em;
   }
@@ -1547,6 +1649,17 @@ a {
   }
   .email-wrapper {
     width: 100vw;
+  }
+  .title-header {
+    font-size: 1.5em;
+  }
+  .faq-list {
+    width: auto;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .question {
+    font-weight: 700;
   }
 }
 

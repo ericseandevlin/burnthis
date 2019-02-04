@@ -1,13 +1,18 @@
 $(function() {
-  console.log('main');
+  // console.log('main');
 
   /* GENERAL */
   // For organization's sake, Try to write all the functions in a big theme-titled object. Then at the bottom, call all the functions by page they're needed on. See the Analytics theme main.js for example:
 
+var burnthis = {
+
+openModal : function() {
   $('.menu-button').on('click', function() {
     $('.nav-menu-bg').css("display", "flex").hide().fadeIn(200);
-  })
+  });
+},
 
+closeModal : function() {
   function closeNavModal() {
     const btn = '.main-modal-close',
       modal = '.nav-menu-bg',
@@ -42,63 +47,12 @@ $(function() {
           $(this).removeAttr("style");
       });
      };
-
-
     });
   };
-  closeNavModal();
-
-  var burnthis = {
-    login : function() {
-      console.log('login success');
-    },
-
-//     modalOpen : function(elem, modalBG) {
-//       // MENU MODAL HANDLER
-//       // console.log('clicked');
-//       $(elem).on('click', function(e) {
-//         // console.log('click open');
-//         e.preventDefault();
-//         $(modalBG).css("display", "flex").hide().fadeIn(200);
-//         // $('.main-content, .footer').fadeTo(200, 0);
-//       });
-//     },
-//
-//     closeNavModal : function() {
-//       // CLOSE MODAL TRIGGER
-//       const btn = '.menu-modal-close',
-//         modal = '.nav-menu-bg',
-//         modalContent = $(modal).find('.modal-menu, .modal-box');
-//
-//       // close modals if click bg or x-button
-//       $(modal).on('click', function(e) {
-//         var clicked = $(e.target);
-//
-//         if (clicked.is($(btn)) || clicked.parents().is($(btn))) {
-//           $(modal).fadeOut(100).promise().done(function() {
-//             $(this).removeAttr("style");
-//             // $('.main-content, .nav-bar, .footer').fadeTo(100, 1);
-//           });
-//           return;
-//
-//         } else if (clicked.is($(modalContent)) || clicked.parents().is($(modalContent))) {
-//           return;
-//
-//         } else {
-//           $(modal).promise().done(function() {
-//             $(this).removeAttr("style");
-//             $('.main-content, .footer').fadeIn(200);
-//             // $('.main-content, .footer').fadeTo(200, 1);
-//           });
-//         }
-//       });
-//     }
-}
-//
-// burnthis.modalOpen('.menu-button', '.nav-menu-bg');
-// burnthis.closeNavModal();
+},
 
 
+news : function() {
 $(document).ready(function() {
   var swiper = new Swiper('#news-swiper', {
     slidesPerView: 2,
@@ -131,9 +85,33 @@ $(document).ready(function() {
     }
   });
 });
+},
+
+faq : function() {
+  // Initialize FAQ accordion
+  $(function() {
+    $("#faq-accordion").accordion({
+      heightStyle: "content",
+      collapsible: true,
+      active: false,
+      icons: { "header": "ui-icon-plus", "activeHeader": "ui-icon-minus" }
+    });
+
+    $('.question').click(function(e) {
+      $('.bullet-circle').removeClass('open');
+      $(this).find($('.bullet-circle')).addClass('open');
+    });
+  });
+ }
+
+}// END BURN THIS FUNCTIONS object
+
   // HOME PAGE FUNCTIONS
   if ($('body.home').length) {
-    burnthis.login();
+    burnthis.openModal();
+    burnthis.closeModal();
+    burnthis.news();
+    burnthis.faq();
   }
 
 

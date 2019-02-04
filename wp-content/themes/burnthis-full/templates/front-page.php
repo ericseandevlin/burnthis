@@ -84,5 +84,6 @@
     </polygon></svg></div>
     </div>
 
+    <?php include(locate_template('partials/section-faq.php')); ?>
 
 <?php get_footer(); ?>
