@@ -282,7 +282,6 @@ h4.ui-accordion-header-active {
   display: flex;
 }
 
-
 /* FORM OVERRIDES */
 .signup-wrapper {
   margin-top: 3em;
@@ -310,8 +309,10 @@ h4.ui-accordion-header-active {
   height: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
-  letter-spacing: -0.35em;
   cursor: text;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #000000;
 }
 
 .signup-submit {
@@ -340,10 +341,7 @@ h4.ui-accordion-header-active {
 }
 
 .signup-input {
-  padding-left: 10px;
-  padding-right: 10px;
-  letter-spacing: -.25em;
-  color: #000000;
+
 }
 .signup-submit {
   height: 49px;

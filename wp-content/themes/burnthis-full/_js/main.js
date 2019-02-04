@@ -48,7 +48,6 @@ $(function() {
 
 var burnthis = {
 
-
 news : function() {
 $(document).ready(function() {
   var swiper = new Swiper('#news-swiper', {
@@ -86,7 +85,6 @@ $(document).ready(function() {
 
 faq : function() {
   // Initialize FAQ accordion
-  $(function() {
     $("#faq-accordion").accordion({
       heightStyle: "content",
       collapsible: true,
@@ -98,23 +96,14 @@ faq : function() {
       $('.bullet-circle').removeClass('open');
       $(this).find($('.bullet-circle')).addClass('open');
     });
-  });
-
-  // if on tickets page, remove transition and menu item highlight
-  $menuFaq = $('.menu-faq');
-  if ($menuFaq) {
-    // console.log('got menu-faq');
-    $menuFaq.removeClass('current-menu-item transition');
-  }
 },
 
 }// END BURN THIS FUNCTIONS object
 
   // HOME PAGE FUNCTIONS
-  if ($('body.home').length) {
     burnthis.news();
     burnthis.faq();
-  }
+
 closeNavModal();
 
 }); // end load jquery

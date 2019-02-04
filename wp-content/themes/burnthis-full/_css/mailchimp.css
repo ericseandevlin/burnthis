@@ -60,5 +60,5 @@
 }
 
 #mc_embed_signup input.mce_inline_error {
-  border: 0px solid transparent !important;
+    border: 1px solid #000000;
 }
