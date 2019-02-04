@@ -11,8 +11,8 @@
         <a href="<?= home_url(); ?>/#cast" class="link-block w-inline-block">
           <div>&lt; Back</div>
         </a>
-        <h1 class="cast-bio-title">Heading</h1>
-        <h2 class="cast-bio-subtitle">Heading</h2>
+        <h1 class="cast-bio-title"><?php the_title(); ?></h1>
+        <h2 class="cast-bio-subtitle"><?php the_field('role'); ?></h2>
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
         <div class="bio-text"><?php the_content(); ?></div>
