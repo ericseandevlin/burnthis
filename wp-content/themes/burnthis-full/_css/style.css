@@ -1,4 +1,10 @@
 
+body {
+  background-color: #000000;
+}
+.global-wrapper {
+    background-color: #000000;
+}
 /* MENU */
 
   .w--current > .nav-link-text {
@@ -18,6 +24,7 @@
 
 .header-section {
   background-image: url('../_images/HERO-IMAGE_DESK.jpg');
+  height: 102vh;
 }
 
 
@@ -58,7 +65,7 @@
 
 @media (min-aspect-ratio: 11/6) {
     .header-section {
-      background-position: 50% 4px;
+      background-position: 50% 44px;
       height: 100vh;
   }
 }
