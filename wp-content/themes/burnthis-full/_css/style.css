@@ -94,27 +94,17 @@ body {
 
 
 
-
-
-
-.home-section {
-  background-image: url('../_images/burnthis_hero_image_desktop_v2.jpg');
-}
-
-.home-section.section-2 {
+.image-section-1 {
   background-image: url('../_images/181221_RPM_BURN_THIS_S6_001.jpg');
 }
 
-.home-section.section-4 {
+.image-section-2 {
   background-image: url('../_images/181221_RPM_BURN_THIS_S3_096.jpg');
 }
 
-.home-section.section-6 {
+.image-section-3 {
   background-image: url('../_images/Group-341.jpg');
-
 }
-
-
   /* Responsive fixes */
 
   @media (min-width: 992px) and (max-width: 1200px) {

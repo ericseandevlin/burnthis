@@ -63,39 +63,15 @@ a {
   min-height: auto;
 }
 
-.home-section {
+.image-section-1 {
   position: relative;
   height: 100vh;
   background-color: #000;
-  background-image: url('../images/burnthis_hero_image_desktop_v2.jpg');
-  background-position: 0px 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.home-section.section-2 {
   background-image: url('../images/181221_RPM_BURN_THIS_S6_001.jpg');
   background-position: 50% 0%;
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-.home-section.section-4 {
-  background-image: url('../images/181221_RPM_BURN_THIS_S3_096.jpg');
-  background-position: 50% 50%;
-  background-size: auto;
-}
-
-.home-section.section-6 {
-  background-image: url('../images/Group-341.jpg');
-  background-position: 50% 0%;
-  background-size: cover;
-}
-
-.home-section.section-8 {
-  height: 20vh;
-  background-image: none;
 }
 
 .global-nav-tickets {
@@ -276,10 +252,6 @@ a {
   text-decoration: none;
 }
 
-.cast-photo {
-  border: 1px none #000;
-}
-
 .cast-name {
   margin-bottom: 0px;
   font-family: 'Lulo Clean Bold';
@@ -397,11 +369,6 @@ a {
   color: hsla(42.85714285714285, 72.22%, 50.59%, 1.00);
 }
 
-.gold.faq {
-  font-family: 'Lulo Clean Bold';
-  color: hsla(42.85714285714285, 72.22%, 50.59%, 1.00);
-}
-
 .faq-section {
   position: relative;
   width: 100vw;
@@ -460,14 +427,6 @@ a {
   margin-left: 8px;
 }
 
-.privacy-link {
-  color: #fff;
-  font-size: 1em;
-  text-align: center;
-  letter-spacing: 0em;
-  text-decoration: none;
-}
-
 .social-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -510,15 +469,6 @@ a {
   -ms-flex-align: center;
   align-items: center;
   color: #000;
-}
-
-.link-3 {
-  color: #fff;
-  text-decoration: none;
-}
-
-.link-3:hover {
-  color: #bb9b33;
 }
 
 .fb-img {
@@ -565,16 +515,9 @@ a {
   height: 100vh;
   background-color: #fff;
   background-image: url('../images/HERO-IMAGE_DESK.jpg');
-  background-position: 50% -73%;
-  background-size: cover;
+  background-position: 50% 7%;
   background-repeat: no-repeat;
-  background-attachment: scroll;
-}
-
-.header-section.section-1 {
-  background-position: 50% 50%;
-  background-size: auto;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .creative-block {
@@ -935,10 +878,6 @@ a {
   background-color: #000;
 }
 
-.body-2 {
-  background-color: #000;
-}
-
 .cast-page-content {
   display: -webkit-box;
   display: -webkit-flex;
@@ -984,26 +923,6 @@ a {
   text-decoration: none;
 }
 
-.body-3 {
-  background-color: #000;
-}
-
-.div-block {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-}
-
 .tickets-content-holder {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1030,47 +949,13 @@ a {
   align-items: stretch;
 }
 
-.blue-line {
-  position: absolute;
-  left: -5%;
-  right: -5%;
-  bottom: 0px;
-  height: 0.7em;
-  background-color: #80b8d9;
-}
-
-.blue-line.about {
-  height: 1.25em;
-}
-
-.title-header {
-  position: relative;
-  z-index: 2;
-  margin-top: 0px;
-  margin-bottom: 5px;
-  color: #fff;
-  font-size: 2.5em;
-  line-height: 1em;
-  text-align: center;
-}
-
 .faq-list {
   width: 70%;
   margin-right: auto;
   margin-left: auto;
 }
 
-.blue-line-holder {
-  position: relative;
-  display: inline-block;
-}
-
 .faq-accordion {
-  text-align: center;
-}
-
-.title-header-holder {
-  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -1163,6 +1048,39 @@ a {
   margin-left: 10px;
 }
 
+.image-section-2 {
+  position: relative;
+  height: 100vh;
+  background-color: #000;
+  background-image: url('../images/181221_RPM_BURN_THIS_S3_096.jpg');
+  background-position: 50% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.image-section-3 {
+  position: relative;
+  height: 100vh;
+  background-color: #000;
+  background-image: url('../images/Group-341.jpg');
+  background-position: 50% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.blank-section {
+  position: relative;
+  height: 100vh;
+  background-color: #000;
+}
+
+.blank-section.section-8 {
+  height: 20vh;
+  background-image: none;
+}
+
 @media (max-width: 991px) {
   .nav-links {
     margin-left: 0px;
@@ -1173,11 +1091,8 @@ a {
     min-height: 400px;
     margin-top: 140px;
   }
-  .home-section {
+  .image-section-1 {
     background-position: 50% 50%;
-  }
-  .home-section.section-8 {
-    height: 12vh;
   }
   .menu-button {
     padding: auto 25px;
@@ -1508,17 +1423,6 @@ a {
   .cast-page-content {
     max-width: 70vw;
   }
-  .div-block {
-    width: 100%;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-  }
   .tickets-content-holder {
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
@@ -1538,6 +1442,18 @@ a {
   }
   .cast-social-wrapper {
     margin-bottom: 20px;
+  }
+  .image-section-2 {
+    background-position: 50% 50%;
+  }
+  .image-section-3 {
+    background-position: 50% 50%;
+  }
+  .blank-section {
+    background-position: 50% 50%;
+  }
+  .blank-section.section-8 {
+    height: 12vh;
   }
 }
 
@@ -1587,18 +1503,12 @@ a {
   .cast-block {
     width: 48%;
   }
-  .cast-photo {
-    min-width: 150px;
-  }
   .global-button {
     width: 250px;
     height: 60px;
   }
   .global-button-text {
     font-size: 1.3em;
-  }
-  .privacy-link {
-    font-size: 0.5em;
   }
   .footer-wrapper {
     -webkit-box-orient: vertical;
@@ -1667,12 +1577,6 @@ a {
     padding-right: 20px;
     padding-left: 20px;
   }
-  .blue-line.about {
-    height: 1em;
-  }
-  .title-header {
-    font-size: 2em;
-  }
   .faq-list {
     width: 90%;
   }
@@ -1696,9 +1600,6 @@ a {
   .about-section {
     top: 0px;
     margin-top: 90px;
-  }
-  .home-section.section-8 {
-    height: 10vh;
   }
   .menu-button {
     height: 50px;
@@ -1791,9 +1692,6 @@ a {
   .insta-img {
     height: 20px;
   }
-  .privacy-link {
-    line-height: 9px;
-  }
   .amex-img {
     width: 145px;
   }
@@ -1869,9 +1767,6 @@ a {
     padding-right: 10px;
     padding-left: 10px;
   }
-  .title-header {
-    font-size: 1.5em;
-  }
   .faq-list {
     width: auto;
     padding-right: 5px;
@@ -1889,6 +1784,9 @@ a {
   }
   .website-img {
     height: 20px;
+  }
+  .blank-section.section-8 {
+    height: 10vh;
   }
 }
 
