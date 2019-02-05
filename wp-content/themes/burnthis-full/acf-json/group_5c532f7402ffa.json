@@ -3,6 +3,30 @@
     "title": "Home",
     "fields": [
         {
+            "key": "field_5c59effd12ad0",
+            "label": "Header Section",
+            "name": "header_section",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
             "key": "field_5c54c9dbc5b59",
             "label": "About Section",
             "name": "about_section",
@@ -39,10 +63,10 @@
             ]
         },
         {
-            "key": "field_5c532f76b7edc",
-            "label": "News Section",
-            "name": "home_slide_news",
-            "type": "group",
+            "key": "field_5c59efc312acd",
+            "label": "Image Section 1",
+            "name": "image_section_1",
+            "type": "image",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -51,141 +75,16 @@
                 "class": "",
                 "id": ""
             },
-            "layout": "block",
-            "sub_fields": [
-                {
-                    "key": "field_5c532faab7edd",
-                    "label": "News Section Title",
-                    "name": "news_section_title",
-                    "type": "text",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                },
-                {
-                    "key": "field_5c532fc7b7ede",
-                    "label": "News Item",
-                    "name": "news_item",
-                    "type": "relationship",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "post_type": [
-                        "news"
-                    ],
-                    "taxonomy": "",
-                    "filters": [
-                        "search"
-                    ],
-                    "elements": "",
-                    "min": "",
-                    "max": "",
-                    "return_format": "object"
-                }
-            ]
-        },
-        {
-            "key": "field_5c534b8a332d4",
-            "label": "Cast Section",
-            "name": "cast",
-            "type": "group",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "layout": "block",
-            "sub_fields": [
-                {
-                    "key": "field_5c534b98332d5",
-                    "label": "Cast Title",
-                    "name": "cast_title",
-                    "type": "text",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "default_value": "",
-                    "placeholder": "",
-                    "prepend": "",
-                    "append": "",
-                    "maxlength": ""
-                },
-                {
-                    "key": "field_5c534b9d332d6",
-                    "label": "Cast Members",
-                    "name": "cast_members",
-                    "type": "relationship",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "post_type": [
-                        "cast"
-                    ],
-                    "taxonomy": "",
-                    "filters": [
-                        "search"
-                    ],
-                    "elements": [
-                        "featured_image"
-                    ],
-                    "min": "",
-                    "max": "",
-                    "return_format": "object"
-                },
-                {
-                    "key": "field_5c534bc2332d7",
-                    "label": "Creative Members",
-                    "name": "creative_members",
-                    "type": "relationship",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": 0,
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "post_type": [
-                        "cast"
-                    ],
-                    "taxonomy": "",
-                    "filters": [
-                        "search"
-                    ],
-                    "elements": "",
-                    "min": "",
-                    "max": "",
-                    "return_format": "object"
-                }
-            ]
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
         },
         {
             "key": "field_5c54b88c33060",
@@ -341,6 +240,203 @@
             ]
         },
         {
+            "key": "field_5c59efdb12ace",
+            "label": "Image Section 2",
+            "name": "image_section_2",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5c534b8a332d4",
+            "label": "Cast Section",
+            "name": "cast",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5c534b98332d5",
+                    "label": "Cast Title",
+                    "name": "cast_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5c534b9d332d6",
+                    "label": "Cast Members",
+                    "name": "cast_members",
+                    "type": "relationship",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "cast"
+                    ],
+                    "taxonomy": "",
+                    "filters": [
+                        "search"
+                    ],
+                    "elements": [
+                        "featured_image"
+                    ],
+                    "min": "",
+                    "max": "",
+                    "return_format": "object"
+                },
+                {
+                    "key": "field_5c534bc2332d7",
+                    "label": "Creative Members",
+                    "name": "creative_members",
+                    "type": "relationship",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "cast"
+                    ],
+                    "taxonomy": "",
+                    "filters": [
+                        "search"
+                    ],
+                    "elements": "",
+                    "min": "",
+                    "max": "",
+                    "return_format": "object"
+                }
+            ]
+        },
+        {
+            "key": "field_5c59efe112acf",
+            "label": "Image Section 3",
+            "name": "image_section_3",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5c532f76b7edc",
+            "label": "News Section",
+            "name": "home_slide_news",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5c532faab7edd",
+                    "label": "News Section Title",
+                    "name": "news_section_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5c532fc7b7ede",
+                    "label": "News Item",
+                    "name": "news_item",
+                    "type": "relationship",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "news"
+                    ],
+                    "taxonomy": "",
+                    "filters": [
+                        "search"
+                    ],
+                    "elements": "",
+                    "min": "",
+                    "max": "",
+                    "return_format": "object"
+                }
+            ]
+        },
+        {
             "key": "field_5c5865d0a5b81",
             "label": "FAQ List",
             "name": "faq_list",
@@ -436,5 +532,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1549297207
+    "modified": 1549398036
 }

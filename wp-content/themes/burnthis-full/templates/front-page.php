@@ -6,7 +6,7 @@
  ?>
 
 <?php get_header(); ?>
-    <div id="home" class="header-section">
+    <div id="home" class="header-section" style="background-image: url('<?php the_field('header_section'); ?>');">
       <div class="w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none" style=" position: absolute;
       bottom: 0;
       width: 100%;
@@ -18,7 +18,7 @@
 
     <?php include(locate_template('partials/section-about.php')); ?>
 
-      <div class="image-section-1">
+      <div class="image-section-1" style="background-image: url('<?php the_field('image_section_1'); ?>');">
       <div class="html-embed w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none" style=" position: absolute;
       top: 0;
       width: 100%;
@@ -35,7 +35,7 @@
 
     <?php include(locate_template('partials/section-tickets.php')); ?>
 
-      <div class="image-section-2">
+      <div class="image-section-2" style="background-image: url('<?php the_field('image_section_2'); ?>');">
       <div class="html-embed w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none" style=" position: absolute;
       top: 0;
       width: 100%;
@@ -52,7 +52,7 @@
 
     <?php include(locate_template('partials/section-cast.php')); ?>
 
-      <div class="image-section-3">
+      <div class="image-section-3" style="background-image: url('<?php the_field('image_section_3'); ?>');">
       <div class="html-embed w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none" style=" position: absolute;
       top: 0;
       width: 100%;
