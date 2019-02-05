@@ -62,7 +62,13 @@ body {
   }
 }
 
-
+@media (max-width: 991px) {
+.header-section {
+  background-image: url('../_images/HERO-IMAGE_MOB2x.jpg');
+  background-position: 50% 0%;
+  background-size: cover;
+  }
+}
 .image-section-1 {
   background-image: url('../_images/181221_RPM_BURN_THIS_S6_001.jpg');
 }
@@ -423,9 +429,20 @@ h4.ui-accordion-header-active {
   height: 49px;
 }
 
-@media (min-width: 479px) and (max-width: 660px) {
+
+@media (max-width: 660px) {
+  .email-wrapper {
+    font-size: .75em;
+  }
   .signup-input {
       width: 250px;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .signup-input {
+      width: 140px;
   }
 }
 .submit-button.send-button {
