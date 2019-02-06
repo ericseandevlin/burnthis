@@ -2,7 +2,7 @@
 
     <div id="faq" class="faq-section">
       <div class="faq-holder">
-          <h1 class="section-title faq">‍<span class="gold bold">/</span><span> </span>faq</h1>
+          <h1 class="section-title faq">‍<span class="gold bold">/</span> faq</h1>
 
           <div class="faq-list">
 

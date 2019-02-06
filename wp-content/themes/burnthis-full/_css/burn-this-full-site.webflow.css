@@ -148,6 +148,7 @@ a {
   margin-bottom: 20px;
   padding-bottom: 0px;
   font-family: 'Lulo Clean One';
+  color: #fff;
   font-size: 5em;
   line-height: 1.2em;
   font-weight: 400;
@@ -1082,6 +1083,17 @@ a {
   background-image: none;
 }
 
+.ticket-text-link {
+  position: static;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: Helveticaneuemed;
+}
+
+.ticket-text-link:hover {
+  border-bottom: 1px solid #fff;
+}
+
 @media (max-width: 991px) {
   .nav-links {
     margin-left: 0px;
@@ -1552,7 +1564,9 @@ a {
     line-height: 1.6em;
   }
   .header-section {
-    background-position: 50% -112%;
+    background-image: url('../images/HERO-IMAGE_MOB2x.jpg');
+    background-position: 50% -110%;
+    background-size: cover;
   }
   .creative-block {
     margin-right: 10px;
@@ -1756,7 +1770,7 @@ a {
   }
   .header-section {
     height: 58vh;
-    background-position: 50% 0%;
+    background-position: 50% 16%;
     background-size: contain;
   }
   .creative-block {

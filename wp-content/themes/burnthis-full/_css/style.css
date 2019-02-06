@@ -50,15 +50,22 @@ body {
 
 @media (min-aspect-ratio: 9/6) {
     .header-section {
-      background-position: 50% 86px;
+      background-position: 50% 68px;
       height: 100vh;
   }
 }
 
 @media (min-aspect-ratio: 10/6) {
     .header-section {
-      background-position: 50% 83px;
+      background-position: 50% 48px;
       height: 100vh;
+  }
+}
+
+@media (min-aspect-ratio: 2/1) {
+    .header-section {
+      background-position: 50% 48px;
+      height: 118vh;
   }
 }
 
