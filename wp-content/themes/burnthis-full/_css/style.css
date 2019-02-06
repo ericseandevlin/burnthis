@@ -20,8 +20,7 @@ body {
   }
 }
 
-/* Fix Image URLS */
-
+/* HEADER IMAGES */
 
 .header-section {
   background-color: #000000;
@@ -114,6 +113,18 @@ body {
   }
 
 
+/* TICKETS SECTION */
+.ticket-text a {
+  position: static;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: Helveticaneuemed;
+}
+
+.ticket-text a:hover {
+  border-bottom: 1px solid #fff;
+}
+
 .get-tickets-text {
   margin-left: 55px;
 }
@@ -124,6 +135,15 @@ body {
     }
 }
 
+.hudson-button {
+  max-width: 400px;
+}
+
+@media (max-width: 991px) {
+  .hudson-button {
+    max-width: 300px;
+  }
+}
 
 .blank-section.section-8 {
   height: 200px;

@@ -51,7 +51,7 @@ function burnthis_enqueue_scripts()
     wp_register_script('swiper', get_template_directory_uri() . '/_js/swiper.min.js', array('jquery-3.3.1'), '1.0.0', true);
     wp_register_script('burnthis', get_template_directory_uri() . '/_js/burnthis.js', array('jquery-3.3.1'), getCacheBust(), true);
     wp_register_script('main', get_template_directory_uri() . '/_js/main.js', array(), getCacheBust('jquery-3.3.1'), true);
-    wp_register_script('mc-validate', get_template_directory_uri() . '/_js/mc-validate.js', array(), getCacheBust(), true);
+    // wp_register_script('mc-validate', get_template_directory_uri() . '/_js/mc-validate.js', array(), getCacheBust(), true);
 
     wp_enqueue_script('jquery-3.3.1');
     wp_enqueue_script('jquery-ui');

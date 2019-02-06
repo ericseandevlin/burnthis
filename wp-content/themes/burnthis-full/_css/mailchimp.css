@@ -22,13 +22,14 @@
 /* RESPONSES */
 
 #mce-responses {
-    font-size: .7em;
+    font-size: .75em;
     background-color: transparent;
     top: 50px;
     line-height: 1.25em;
     letter-spacing: 0;
-    font-family: 'Lulo Clean Bold', sans-serif;
+    font-family: Helveticaneuelt;
     padding: 10px 0;
+    color: #ffffff;
 }
 
 #mce-success-response a, #mce-error-response a {
@@ -42,23 +43,4 @@
   color: white;
   border-bottom: 1px solid white;
   text-decoration: none;
-}
-
-#mc_embed_signup_scroll div.mce_inline_error {
-  background-color: transparent !important;
-  font-size: 0em !important;
-  padding: 0px !important;
-  margin: 0px !important;
-  border-color: none !important;
-  color: transparent !important;
-  height: 0 !important;
-}
-
-#mc_embed_signup_scroll div.mce_inline_error {
-  margin-bottom: -2px !important;
-  border-bottom: 2px solid #ea1c25 !important;
-}
-
-#mc_embed_signup input.mce_inline_error {
-    border: 1px solid #000000;
 }

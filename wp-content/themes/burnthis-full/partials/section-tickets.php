@@ -26,6 +26,17 @@
 
   endif;
   ?>
+
+  <?php
+  if( have_rows('hudson_button') ):
+      while ( have_rows('hudson_button') ) : the_row();
+      ?>
+  <a href="<?php the_sub_field('url'); ?>" target="_blank">
+    <img src="<?php the_sub_field('image'); ?>" class="hudson-button">
+  </a>
+
+  <?php endwhile; endif; ?>
+
   <?php
   if( have_rows('tickets_button') ):
       while ( have_rows('tickets_button') ) : the_row();
