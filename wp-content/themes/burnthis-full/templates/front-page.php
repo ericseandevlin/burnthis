@@ -6,7 +6,7 @@
  ?>
 
 <?php get_header(); ?>
-    <div id="home" class="header-section" style="background-image: url('<?php the_field('header_section'); ?>');">
+    <div id="home" class="header-section">
       <div class="w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" preserveaspectratio="none" style=" position: absolute;
       bottom: 0;
       width: 100%;

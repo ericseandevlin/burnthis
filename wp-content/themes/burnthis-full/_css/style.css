@@ -22,15 +22,35 @@ body {
 
 /* Fix Image URLS */
 
+
 .header-section {
+  background-color: #000000;
   background-image: url('../_images/HERO-IMAGE_DESK.jpg');
 }
 
+@media (max-width: 991px) {
+.header-section {
+  background-image: url('../_images/HERO-IMAGE_MOB2x.jpg');
+  background-position: 50% -21%;
+  background-size: cover;
+  }
+}
 
-@media (min-aspect-ratio: 5/6) {
+@media (max-width: 991px) and (min-aspect-ratio: 5/6) {
     .header-section {
-    background-position: 50% 70px;
-    height: 82vh;
+      background-image: url(../_images/HERO-IMAGE_DESK.jpg);
+      background-position: 50% 70px;
+      height: 61vh;
+      background-size: contain;
+  }
+}
+
+@media (max-width: 480px) and (max-aspect-ratio: 3/4){
+.header-section {
+  background-image: url(../_images/HERO-IMAGE_MOB2x.jpg);
+      background-position: 0 61px;
+      background-size: contain;
+      height: 96vh;
   }
 }
 
@@ -69,13 +89,7 @@ body {
   }
 }
 
-@media (max-width: 991px) {
-.header-section {
-  background-image: url('../_images/HERO-IMAGE_MOB2x.jpg');
-  background-position: 50% 0%;
-  background-size: cover;
-  }
-}
+
 .image-section-1 {
   background-image: url('../_images/181221_RPM_BURN_THIS_S6_001.jpg');
 }
