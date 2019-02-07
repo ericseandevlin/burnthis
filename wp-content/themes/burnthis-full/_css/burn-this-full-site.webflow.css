@@ -527,9 +527,8 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 40px;
+  width: 33%;
   margin-bottom: 60px;
-  margin-left: 40px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -595,9 +594,6 @@ a {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  -webkit-align-content: stretch;
-  -ms-flex-line-pack: stretch;
-  align-content: stretch;
 }
 
 .nav-link-text {
@@ -1083,15 +1079,16 @@ a {
   background-image: none;
 }
 
-.ticket-text-link {
+.text-link {
   position: static;
-  -webkit-transition: all 200ms ease;
-  transition: all 200ms ease;
+  border-bottom: 1px solid #fff;
+  -webkit-transition: border-color 200ms ease;
+  transition: border-color 200ms ease;
   font-family: Helveticaneuemed;
 }
 
-.ticket-text-link:hover {
-  border-bottom: 1px solid #fff;
+.text-link:hover {
+  border-bottom: 1px solid transparent;
 }
 
 @media (max-width: 991px) {
@@ -1266,6 +1263,7 @@ a {
     background-image: none;
   }
   .creative-block {
+    width: 50%;
     margin-right: 0px;
     margin-left: 0px;
   }
@@ -1568,10 +1566,6 @@ a {
     background-position: 50% -110%;
     background-size: cover;
   }
-  .creative-block {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
   .creative-block-holder {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
@@ -1774,6 +1768,7 @@ a {
     background-size: contain;
   }
   .creative-block {
+    width: 100%;
     margin-right: 0px;
     margin-bottom: 30px;
     margin-left: 0px;

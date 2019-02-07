@@ -55,31 +55,44 @@
 
       <?php // CREATIVE LOOP ?>
       <?php if( $creative_members ): ?>
+
+        <div class="creative-block-holder">
+
         <?php foreach( $creative_members as $post): ?>
           <?php setup_postdata($post); ?>
 
           <?php
             $status = get_field('status');
             $position = get_field('position');
+            $bio = get_the_content();
           ?>
           <?php if( $status == 'active' && $position[0] == 'creative' ) : ?>
 
             <?php
               $creative_row_counter++;
-              if( $creative_row_counter == 1 || $creative_row_counter % 4 == 1 ) {
-                echo '<div class="creative-block-holder">';
-              }
+              // if( $creative_row_counter == 1 || $creative_row_counter % 4 == 1 ) {
+              //   echo '<div class="creative-block-holder">';
+              // }
             ?>
 
-            <div class="creative-block">
-                <a href="<?php echo get_permalink(); ?>">
-                <h3 class="creative-name"><?php the_title(); ?></h3>
-                <h4 class="creative-role"><?php the_field('role'); ?></h4>
-              </a>
+              <div class="creative-block">
+                <?php if ($bio) : // link to bio bage?>
+                  <a href="<?php echo get_permalink(); ?>">
+                    <h3 class="creative-name"><?php the_title(); ?></h3>
+                    <h4 class="creative-role"><?php the_field('role'); ?></h4>
+                  </a>
+
+                <?php else: // dont link to bio page?>
+                  <div>
+                    <h3 class="creative-name"><?php the_title(); ?></h3>
+                    <h4 class="creative-role"><?php the_field('role'); ?></h4>
+                  </div>
+
+              <?php endif; ?>
               </div>
 
-              <?php if( $creative_row_counter % 4 == 0 ) {
-                echo '</div>'; }?>
+              <?php //if( $creative_row_counter % 4 == 0 ) {
+              //  echo '</div>'; }?>
 
               <?php endif; ?>
             <?php endforeach; ?>
@@ -87,7 +100,7 @@
         <?php endif; ?>
 
       </div>
-
+    </div>
   </div>
 </div>
 </div>
