@@ -6,19 +6,18 @@
  ?>
 
 <?php get_header(); ?>
-
-<div class="main-content">
-
     <?php if (have_posts()) :  while (have_posts()) : the_post(); ?>
 
-      <h1 class="privacy-title"><?php the_title(); ?></h1>
-<div class="privacy-wrapper">
-      <?php the_content(); ?>
-</div>
+
+      <div class="privacy">
+        <div class="main-container w-container">
+          <div class="privacy-list">
+            <h1 class="section-title-2"><?php the_title(); ?></h1>
+            <br>
+            <?php the_content(); ?>
+          </div>
+        </div>
+      </div>
 
     <?php endwhile; endif; ?>
-
-
-</div>
-
 <?php get_footer(); ?>
